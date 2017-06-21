@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icono_sala.png",
+        "source": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\src\\main\\res\\mipmap-hdpi\\icono_sala.png"
+    },
+    {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ingresar_persona.png",
+        "source": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\src\\main\\res\\mipmap-hdpi\\ingresar_persona.png"
+    },
+    {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ingresar_edificio.png",
+        "source": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\src\\main\\res\\mipmap-hdpi\\ingresar_edificio.png"
+    }
+]

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:layout_weight="0.11"
+                android:fontFamily="serif"
+                android:text="Bienvenido Jardinero, ¡registrece para poder ofrecer sus servicios!"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:textSize="14sp"
+                android:fontFamily="serif"
+                android:hint="Ingrese su Nombre"
+                android:inputType="none"/>
+
+            <EditText
+                android:id="@+id/editTextApellido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:textSize="14sp"
+                android:fontFamily="serif"
+                android:hint="Ingrese su Apellido"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                android:id="@+id/editTextCorreo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:textSize="14sp"
+                android:fontFamily="serif"
+                android:hint="Ingrese su Correo"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/editTextTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:maxLength="9"
+                android:textSize="14sp"
+                android:fontFamily="serif"
+                android:hint="Ingrese su Teléfono (9 dígitos)"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/editTextCapacitaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:textSize="14sp"
+                android:fontFamily="serif"
+                android:hint="Ingrese capacitaciones que posee"
+                android:inputType="textMultiLine"/>
+
+            <EditText
+                android:id="@+id/editTextContrasena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:textSize="14sp"
+                android:fontFamily="serif"
+                android:hint="Ingrese Contraseña"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/editTextContrasena2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:textSize="14sp"
+                android:fontFamily="serif"
+                android:hint="Repita contraseña"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/btnEnviarRegistro"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/holo_green_light"
+                android:fontFamily="serif"
+                android:text="Enviar Registro"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewMensaje"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:layout_weight="0.11"
+                android:fontFamily="serif"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
