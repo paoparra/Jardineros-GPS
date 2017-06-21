@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_prueba.xml",
+        "source": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\src\\main\\res\\layout\\activity_prueba.xml"
+    },
+    {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\layout\\notification_media_cancel_action.xml"
     },

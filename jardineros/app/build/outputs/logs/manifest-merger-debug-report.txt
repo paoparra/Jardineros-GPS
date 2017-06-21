@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\
 	android:name
 		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:7:5-22:19
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:7:5-23:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Paola Alejandra\.android\build-cache\a38cd0064304a6cba4d779b7afa73cf7b106d4cb\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\b9a1b662119c28d9c71c527baf239deb52bbde6c\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\2248a1354f0363e8f222c93e21a4c2f4525683d6\output\AndroidManifest.xml:25:5-20
@@ -59,9 +59,13 @@ ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\
 	android:name
 		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:20:19-51
 activity#com.example.pipe.ubb.RegistrarUsuarioJardinero
-ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:21:9-72
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:21:9-63
 	android:name
 		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:21:19-60
+activity#com.example.pipe.ubb.prueba
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:22:9-53
+	android:name
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:22:19-41
 uses-sdk
 INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Paola Alejandra\.android\build-cache\a38cd0064304a6cba4d779b7afa73cf7b106d4cb\output\AndroidManifest.xml:5:5-7:41
