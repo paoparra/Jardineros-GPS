@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_prueba.xml",
+        "source": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\src\\main\\res\\layout\\activity_prueba.xml"
+    },
+    {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\layout\\notification_media_cancel_action.xml"
     },
@@ -36,12 +40,12 @@
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",

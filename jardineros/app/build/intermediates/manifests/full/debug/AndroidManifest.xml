@@ -25,6 +25,7 @@
         </activity>
         <activity android:name="com.example.pipe.ubb.RegistrarUsuario" />
         <activity android:name="com.example.pipe.ubb.RegistrarUsuarioJardinero" />
+        <activity android:name="com.example.pipe.ubb.prueba" />
     </application>
 
 </manifest>
