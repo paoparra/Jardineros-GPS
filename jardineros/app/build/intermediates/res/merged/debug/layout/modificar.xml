@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#C2C2C2">
 
     <TextView
         android:text="Modificar Contraseña"
@@ -12,24 +13,34 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+
         android:ems="10"
         android:id="@+id/eclave1"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:fontFamily="serif"
         android:hint="Ingrese nueva contraseña" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/eclave2"
+        android:textSize="18sp"
+        android:fontFamily="serif"
         android:hint="Repita nueva contraseña" />
 
     <Button
-        android:text="Modificar"
-        android:layout_width="match_parent"
+        android:id="@+id/mclave"
+
+        android:background="#71C400"
+        android:fontFamily="serif"
+        android:layout_width="230dp"
+        android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
-        android:id="@+id/mclave" />
+        android:layout_gravity="center_horizontal"
+        android:text="Modificar" />
 
     <TextView
         android:text="Modificar Nombre"
@@ -43,12 +54,18 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/enombre"
+        android:textSize="18sp"
+        android:fontFamily="serif"
         android:hint="Ingrese nuevo nombre" />
 
     <Button
         android:text="Modificar"
-        android:layout_width="match_parent"
+        android:background="#71C400"
+        android:fontFamily="serif"
+        android:layout_width="230dp"
+        android:layout_marginTop="4dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:id="@+id/mnombre" />
 
     <TextView
@@ -63,12 +80,18 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/eapellido"
+        android:textSize="18sp"
+        android:fontFamily="serif"
         android:hint="Ingrese nuevo apellido" />
 
     <Button
         android:text="Modificar"
-        android:layout_width="match_parent"
+        android:background="#71C400"
+        android:fontFamily="serif"
+        android:layout_width="230dp"
+        android:layout_marginTop="4dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:id="@+id/mapellido" />
 
     <TextView
@@ -87,8 +110,12 @@
 
     <Button
         android:text="Modificar"
-        android:layout_width="match_parent"
+        android:background="#71C400"
+        android:fontFamily="serif"
+        android:layout_width="230dp"
+        android:layout_marginTop="4dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:id="@+id/mtelefono" />
 
 </LinearLayout>

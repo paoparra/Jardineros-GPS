@@ -6,26 +6,23 @@
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1498110216220"
+    timestamp="1498111719937"
     token="6558107639520754188"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1116" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="109" />
+        duration="0" />
     <task
         name="verifier"
-        duration="9" />
+        duration="0" />
 
-    <artifact
-        location="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
     <artifact
         location="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
@@ -78,6 +75,11 @@
         <artifact
             location="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1498111719937"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
