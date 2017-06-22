@@ -1,4 +1,4 @@
-#Thu Jun 22 00:30:14 CLT 2017
+#Thu Jun 22 12:15:07 CLT 2017
 file.2=C\:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-24.2.1_64c924af995189d9aa293ae330692324a3e8f912\\classes.dex
 base.2=C\:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-24.2.1_64c924af995189d9aa293ae330692324a3e8f912
 file.1=C\:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_ed0cbbf37554d6965d659ee23b964798f08d8004\\classes.dex

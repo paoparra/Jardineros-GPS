@@ -64,6 +64,10 @@
         "source": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\layout\\activity_registro.xml"
     },
     {
+        "merged": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_solicitar.xml",
+        "source": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\layout\\activity_solicitar.xml"
+    },
+    {
         "merged": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
@@ -152,6 +156,10 @@
         "source": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\layout\\login_usuario.xml"
     },
     {
+        "merged": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_especifico.xml",
+        "source": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\layout\\activity_especifico.xml"
+    },
+    {
         "merged": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
@@ -166,6 +174,10 @@
     {
         "merged": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\registrar_jardinero.xml",
         "source": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\layout\\registrar_jardinero.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_jardineros_lista.xml",
+        "source": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\layout\\activity_jardineros_lista.xml"
     },
     {
         "merged": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
@@ -218,6 +230,10 @@
     {
         "merged": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\layout\\activity_main2.xml"
     },
     {
         "merged": "C:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",

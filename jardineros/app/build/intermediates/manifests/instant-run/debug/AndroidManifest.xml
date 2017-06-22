@@ -29,6 +29,10 @@
         <activity android:name="com.example.pipe.ubb.login_usuario" />
         <activity android:name="com.example.pipe.ubb.modificar" />
         <activity android:name="com.example.pipe.ubb.panel_usuario" />
+        <activity android:name="com.example.pipe.ubb.JardinerosLista" />
+        <activity android:name="com.example.pipe.ubb.Main2Activity" />
+        <activity android:name="com.example.pipe.ubb.Especifico" />
+        <activity android:name="com.example.pipe.ubb.Solicitar" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

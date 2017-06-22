@@ -1,4 +1,4 @@
-#Thu Jun 22 00:30:14 CLT 2017
+#Thu Jun 22 12:15:08 CLT 2017
 base.0=C\:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
 renamed.0=classes.dex
 file.0=C\:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex

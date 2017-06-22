@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\libs\apache-httpcomponents-httpcore.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="33fc26c02f8043ab0ede19eadc8c9885386b255c">
-        <dex dex="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\build\intermediates\transforms\dex\debug\folders\1000\2\apache-httpcomponents-httpcore_d1a6f86c3366f0e12de3f2d78e717422295409da\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_227031f964c23a5b310d8621ed52fc1f6ae36904\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\libs\apache-httpcomponents-httpcore.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="33fc26c02f8043ab0ede19eadc8c9885386b255c">
+        <dex dex="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\build\intermediates\transforms\dex\debug\folders\1000\2\apache-httpcomponents-httpcore_d1a6f86c3366f0e12de3f2d78e717422295409da\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6f1cf0e49244d00179b5f3abbf923a935e6ebf2a">
+        sha1="041f4e2e61c58bb96917f3d0a0e752145bdc7a02">
         <dex dex="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4945619f7de2a387c3d44af8d0105afd3377b4de\classes.dex" />
     </item>
 

@@ -43,10 +43,10 @@
         android:text="Modificar" />
 
     <TextView
-        android:text="Modificar Nombre"
+        android:id="@+id/textNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView" />
+        android:text="Modificar Nombre" />
 
     <EditText
         android:layout_width="match_parent"
@@ -69,10 +69,10 @@
         android:id="@+id/mnombre" />
 
     <TextView
-        android:text="Modificar Apellido"
+        android:id="@+id/textApellido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView6" />
+        android:text="Modificar Apellido" />
 
     <EditText
         android:layout_width="match_parent"
@@ -95,10 +95,10 @@
         android:id="@+id/mapellido" />
 
     <TextView
-        android:text="Modificar Telefono"
+        android:id="@+id/textTelefono"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView5" />
+        android:text="Modificar Telefono" />
 
     <EditText
         android:layout_width="match_parent"

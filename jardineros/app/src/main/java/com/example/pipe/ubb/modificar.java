@@ -192,7 +192,7 @@ public class modificar extends AppCompatActivity implements View.OnClickListener
         }
         protected void onPostExecute(String file_url) {
             textTelefono.setText(mensaje);
-        
+
 
         }
     }
