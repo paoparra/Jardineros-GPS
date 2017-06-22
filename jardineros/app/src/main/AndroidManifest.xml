@@ -19,6 +19,7 @@
         </activity>
         <activity android:name=".RegistrarUsuario" />
         <activity android:name=".RegistrarUsuarioJardinero" />
+        <activity android:name=".Ventana_registro" />
     </application>
 
 </manifest>

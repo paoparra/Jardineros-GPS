@@ -4,7 +4,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="#C2C2C2">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -121,7 +122,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="15dp"
-                android:background="@android:color/holo_green_light"
+                android:background="#71C400"
                 android:fontFamily="serif"
                 android:text="Enviar Registro"
                 android:textAlignment="center"

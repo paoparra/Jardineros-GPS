@@ -62,10 +62,10 @@ activity#com.example.pipe.ubb.RegistrarUsuarioJardinero
 ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:21:9-63
 	android:name
 		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:21:19-60
-activity#com.example.pipe.ubb.prueba
-ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:22:9-53
+activity#com.example.pipe.ubb.Ventana_registro
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:22:9-54
 	android:name
-		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:22:19-41
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:22:19-51
 uses-sdk
 INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Paola Alejandra\.android\build-cache\a38cd0064304a6cba4d779b7afa73cf7b106d4cb\output\AndroidManifest.xml:5:5-7:41

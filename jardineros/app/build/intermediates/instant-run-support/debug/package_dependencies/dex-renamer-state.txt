@@ -1,4 +1,4 @@
-#Sat Jun 17 19:19:21 GMT-04:00 2017
+#Wed Jun 21 18:20:06 GMT-04:00 2017
 file.2=C\:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_dca794204766c37361f2ff74e435fc787f479729\\classes.dex
 base.2=C\:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_dca794204766c37361f2ff74e435fc787f479729
 file.1=C\:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\httpclient-4.0.3_df6f8cda0a5f4b9cbdf29779349bec124f1bdd85\\classes.dex

@@ -3058,6 +3058,8 @@ containing a value of this type.
         public static final int beginning=0x7f0c003b;
         public static final int bottom=0x7f0c002a;
         public static final int btnEnviarRegistro=0x7f0c009e;
+        public static final int btnLoginJardinero=0x7f0c0078;
+        public static final int btnLoginUsuario=0x7f0c0077;
         public static final int buscarp=0x7f0c0094;
         public static final int buttonPanel=0x7f0c004e;
         public static final int cancel_action=0x7f0c0086;
@@ -3106,7 +3108,6 @@ containing a value of this type.
         public static final int ifRoom=0x7f0c003f;
         public static final int image=0x7f0c0049;
         public static final int info=0x7f0c0090;
-        public static final int ingresarp=0x7f0c0078;
         public static final int item_touch_helper_previous_elevation=0x7f0c0005;
         public static final int left=0x7f0c0030;
         public static final int line1=0x7f0c008a;
@@ -3114,6 +3115,7 @@ containing a value of this type.
         public static final int listMode=0x7f0c0014;
         public static final int list_item=0x7f0c004b;
         public static final int listviewp=0x7f0c0095;
+        public static final int login_adminsitrador=0x7f0c007a;
         public static final int media_actions=0x7f0c0088;
         public static final int middle=0x7f0c003c;
         public static final int mini=0x7f0c003a;
@@ -3125,15 +3127,15 @@ containing a value of this type.
         public static final int normal=0x7f0c0015;
         public static final int packed=0x7f0c000e;
         public static final int parallax=0x7f0c0034;
-        public static final int parametrov=0x7f0c0077;
         public static final int parent=0x7f0c000b;
         public static final int parentPanel=0x7f0c0050;
         public static final int pin=0x7f0c0035;
         public static final int progress_circular=0x7f0c0006;
         public static final int progress_horizontal=0x7f0c0007;
         public static final int radio=0x7f0c005e;
-        public static final int registrar_jardinero=0x7f0c007a;
-        public static final int registrar_usuario=0x7f0c0079;
+        public static final int registrar=0x7f0c0079;
+        public static final int registrarJardinero=0x7f0c0076;
+        public static final int registrarUser=0x7f0c0075;
         public static final int right=0x7f0c0031;
         public static final int screen=0x7f0c0024;
         public static final int scroll=0x7f0c0020;
@@ -3185,9 +3187,7 @@ containing a value of this type.
         public static final int touch_outside=0x7f0c007b;
         public static final int up=0x7f0c0009;
         public static final int useLogo=0x7f0c001c;
-        public static final int verp=0x7f0c0076;
         public static final int view_offset_helper=0x7f0c000a;
-        public static final int vistap=0x7f0c0075;
         public static final int withText=0x7f0c0041;
         public static final int wrap=0x7f0c000d;
         public static final int wrap_content=0x7f0c0028;
@@ -3228,7 +3228,7 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f040017;
         public static final int abc_search_view=0x7f040018;
         public static final int abc_select_dialog_material=0x7f040019;
-        public static final int activity_prueba=0x7f04001a;
+        public static final int activity_registro=0x7f04001a;
         public static final int activity_ubb=0x7f04001b;
         public static final int design_bottom_sheet_dialog=0x7f04001c;
         public static final int design_layout_snackbar=0x7f04001d;
