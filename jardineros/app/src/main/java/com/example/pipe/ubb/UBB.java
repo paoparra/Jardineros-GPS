@@ -1,3 +1,4 @@
+
 package com.example.pipe.ubb;
 
 import android.content.Intent;
@@ -43,6 +44,8 @@ public class UBB extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v){
         switch (v.getId()){
             case R.id.btnLoginUsuario:
+                 Intent b=new Intent(this,login_usuario.class);
+                startActivity(b);
                                         break;
             case R.id.btnLoginJardinero:
                                         break;

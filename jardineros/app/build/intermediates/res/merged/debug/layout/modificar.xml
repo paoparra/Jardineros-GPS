@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Modificar Contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textclave" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/eclave1"
+        android:hint="Ingrese nueva contraseña" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/eclave2"
+        android:hint="Repita nueva contraseña" />
+
+    <Button
+        android:text="Modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mclave" />
+
+    <TextView
+        android:text="Modificar Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/enombre"
+        android:hint="Ingrese nuevo nombre" />
+
+    <Button
+        android:text="Modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mnombre" />
+
+    <TextView
+        android:text="Modificar Apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/eapellido"
+        android:hint="Ingrese nuevo apellido" />
+
+    <Button
+        android:text="Modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mapellido" />
+
+    <TextView
+        android:text="Modificar Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etelefono"
+        android:hint="Ingrese nuevo telefono" />
+
+    <Button
+        android:text="Modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mtelefono" />
+
+</LinearLayout>

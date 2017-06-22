@@ -20,6 +20,9 @@
         <activity android:name=".RegistrarUsuario" />
         <activity android:name=".RegistrarUsuarioJardinero" />
         <activity android:name=".Ventana_registro" />
+        <activity android:name=".login_usuario"/>
+        <activity android:name=".modificar"/>
+        <activity android:name=".panel_usuario"/>
     </application>
 
 </manifest>
