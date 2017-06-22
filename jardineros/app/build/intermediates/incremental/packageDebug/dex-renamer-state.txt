@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 #Thu Jun 22 10:33:32 GMT-04:00 2017
 base.0=C\:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+=======
+#Thu Jun 22 02:08:41 CLT 2017
+base.0=C\:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4945619f7de2a387c3d44af8d0105afd3377b4de
+renamed.1=classes2.dex
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
 renamed.0=classes.dex
 file.0=C\:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

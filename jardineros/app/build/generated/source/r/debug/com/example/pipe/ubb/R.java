@@ -3079,7 +3079,11 @@ containing a value of this type.
         public static final int clip_vertical=0x7f0c0037;
         public static final int collapseActionView=0x7f0c003e;
         public static final int contentPanel=0x7f0c0054;
+<<<<<<< HEAD
         public static final int csesion=0x7f0c00b2;
+=======
+        public static final int csesion=0x7f0c00a9;
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
         public static final int custom=0x7f0c005a;
         public static final int customPanel=0x7f0c0059;
         public static final int decor_content_parent=0x7f0c0063;
@@ -3106,9 +3110,15 @@ containing a value of this type.
         public static final int enombre=0x7f0c009b;
         public static final int enterAlways=0x7f0c001d;
         public static final int enterAlwaysCollapsed=0x7f0c001e;
+<<<<<<< HEAD
         public static final int entrar=0x7f0c0094;
         public static final int etelefono=0x7f0c00a1;
         public static final int evaluarJardinero=0x7f0c00b3;
+=======
+        public static final int entrar=0x7f0c0088;
+        public static final int etelefono=0x7f0c0095;
+        public static final int evaluarJardinero=0x7f0c00a6;
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
         public static final int exitUntilCollapsed=0x7f0c001f;
         public static final int expand_activities_button=0x7f0c0048;
         public static final int expanded_menu=0x7f0c005b;
@@ -3162,11 +3172,18 @@ containing a value of this type.
         public static final int progress_circular=0x7f0c0006;
         public static final int progress_horizontal=0x7f0c0007;
         public static final int radio=0x7f0c005e;
+<<<<<<< HEAD
         public static final int ratingBar=0x7f0c007a;
         public static final int reclamos=0x7f0c00b4;
         public static final int registrar=0x7f0c0085;
         public static final int registrarJardinero=0x7f0c0080;
         public static final int registrarUser=0x7f0c007f;
+=======
+        public static final int reclamos=0x7f0c00a7;
+        public static final int registrar=0x7f0c0079;
+        public static final int registrarJardinero=0x7f0c0076;
+        public static final int registrarUser=0x7f0c0075;
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
         public static final int right=0x7f0c0031;
         public static final int screen=0x7f0c0024;
         public static final int scroll=0x7f0c0020;
@@ -3192,7 +3209,11 @@ containing a value of this type.
         public static final int snackbar_action=0x7f0c008a;
         public static final int snackbar_text=0x7f0c0089;
         public static final int snap=0x7f0c0021;
+<<<<<<< HEAD
         public static final int solicitarJardinero=0x7f0c00b5;
+=======
+        public static final int solicitarJardinero=0x7f0c00a8;
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
         public static final int spacer=0x7f0c004f;
         public static final int split_action_bar=0x7f0c0008;
         public static final int spread=0x7f0c000c;

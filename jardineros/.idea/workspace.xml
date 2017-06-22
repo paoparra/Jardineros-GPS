@@ -37,17 +37,40 @@
     <favorites_list name="jardineros" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="panel_usuario.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/panel_usuario.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="447">
               <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="registrar_jardinero.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/registrar_jardinero.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="104" column="48" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_usuario.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_usuario.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="21" column="34" selection-start-line="20" selection-start-column="7" selection-end-line="21" selection-end-column="34" />
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="panel_usuario.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/panel_usuario.xml">
           <provider editor-type-id="android-designer2">
@@ -56,8 +79,31 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="549">
               <caret line="59" column="43" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="43" />
+=======
+      <file leaf-file-name="persona.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/persona.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panel_usuario.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/panel_usuario.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="52" column="34" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="34" />
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -69,8 +115,54 @@
               <folding />
             </state>
           </provider>
+<<<<<<< HEAD
           <provider editor-type-id="android-manifest">
+=======
+        </entry>
+      </file>
+      <file leaf-file-name="login_usuario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/login_usuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panel_usuario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/panel_usuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modificar.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/modificar.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrarUsuario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/RegistrarUsuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="23" column="87" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="87" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -1962,9 +2054,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/panel_usuario.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/panel_usuario.java" />
+=======
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_registrar_usuario.xml" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/pipe/ubb/R.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/RegistrarUsuarioN.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/registrar_usuario_n.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/RegistrarUsuario_N.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/RegistrarUsuario.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/RegistrarUsuarioJardinero.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/registrar_usuario.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/Ventana_registro.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ubb.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/modificar.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/login_usuario.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/UBB.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/panel_usuario.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/registrar_jardinero.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/login_usuario.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/panel_usuario.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/modificar.xml" />
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
       </list>
     </option>
   </component>
@@ -2388,7 +2504,35 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/panel_usuario.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/RegistrarUsuarioJardinero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="82" column="56" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/Ventana_registro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
@@ -2399,13 +2543,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/panel_usuario.java">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="447">
           <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+=======
+        <state relative-caret-position="-156">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/persona.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/login_usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/panel_usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/RegistrarUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="23" column="87" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/registrar_jardinero.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="104" column="48" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ubb.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-619">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="30" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/panel_usuario.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_usuario.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="21" column="34" selection-start-line="20" selection-start-column="7" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/modificar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/modificar.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
   </component>
 </project>

@@ -1,5 +1,9 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Thu Jun 22 10:33:32 GMT-04:00 2017
+=======
+#Thu Jun 22 02:08:41 CLT 2017
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_activity_chooser_view_list_item.xml

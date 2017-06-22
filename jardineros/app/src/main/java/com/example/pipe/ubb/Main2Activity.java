@@ -55,6 +55,7 @@ public class Main2Activity extends Activity {
         Bundle b = this.getIntent().getExtras();
 
         Evaluacion.setText("" + b.getString("NOMBRE"));
+        Usuario=b.getString("usuario");
         Jardinero=Evaluacion.getText().toString();
         Log.d("mensaje","gardiner: "+Jardinero);
 

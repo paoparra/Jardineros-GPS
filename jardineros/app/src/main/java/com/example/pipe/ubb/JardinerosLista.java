@@ -35,6 +35,7 @@ public class JardinerosLista extends Activity {
 
             ArrayList lista = (ArrayList) getIntent().getSerializableExtra("micorreo");
             final String eleccion= (String)getIntent().getSerializableExtra("op");
+            final String usuario= (String)getIntent().getSerializableExtra("usuario");
 
             Log.d("mensaje","funciono: "+lista.size());
             Log.d("mensaje","eleccion: "+eleccion);
@@ -73,7 +74,7 @@ public class JardinerosLista extends Activity {
                     //Creamos la información a pasar entre actividades
                     Bundle b = new Bundle();
                     b.putString("NOMBRE", listview.getAdapter().getItem(position).toString());
-
+                    b.putString("usuario", usuario);
                     //Añadimos la información al intent
                     intent.putExtras(b);
 

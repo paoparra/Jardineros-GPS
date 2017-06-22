@@ -61,6 +61,7 @@ public class Solicitar extends Activity {
         Bundle b = this.getIntent().getExtras();
 
         Evaluacion.setText("" + b.getString("NOMBRE"));
+        Usuario=b.getString("usuario");
         Jardinero=Evaluacion.getText().toString();
 
         btnSubmit.setOnClickListener(new View.OnClickListener() {

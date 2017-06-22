@@ -13,6 +13,7 @@
 
     <Button
         android:text="Modificar Datos"
+<<<<<<< HEAD
 
         android:id="@+id/mdatos"
         android:background="#71C400"
@@ -27,12 +28,21 @@
         android:text="Cerrar Sesion"
 
         android:id="@+id/csesion"
+=======
+
+        android:id="@+id/mdatos"
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
         android:background="#71C400"
         android:fontFamily="serif"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+<<<<<<< HEAD
         android:layout_marginTop="20dp"/>
+=======
+        android:layout_marginTop="20dp"
+        />
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
 
     <Button
         android:id="@+id/evaluarJardinero"
@@ -63,7 +73,25 @@
         android:background="#71C400"
         android:fontFamily="serif"
         android:layout_width="230dp"
+<<<<<<< HEAD
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"/>
+=======
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+       />
+
+    <Button
+        android:id="@+id/csesion"
+
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#71C400"
+        android:fontFamily="serif"
+        android:text="Cerrar Sesion" />
+>>>>>>> 1623c3e3896f02df9cd202cc61d925eab3794939
 </LinearLayout>
