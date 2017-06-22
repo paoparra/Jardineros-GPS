@@ -12,6 +12,7 @@ import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,11 +22,16 @@ import java.util.List;
  */
 
 public class modificar extends AppCompatActivity implements View.OnClickListener {
-    TextView textclave;
+    TextView textclave,textNombre,textApellido,textTelefono;
     EditText eclave1,eclave2,enombre,eapellido,etelefono;
     Button mclave,mnombre,mapellido,mtelefono;
-    String id_string,clave_string,resultado,mensaje,nueva_clave_string,nueva_clave1_string,nombre;
+    String id_string,clave_string,resultado,mensaje,nueva_clave_string,nueva_clave1_string,nombre,apellido,telefono;
     String LOGIN_URL_MODIFICAR_CLAVE="http://34.193.208.83/jardinero/modificar/modificar_clave.php";
+    String LOGIN_URL_MODIFICAR_NOMBRE="http://34.193.208.83/jardinero/modificar/modificar_nombre.php";
+    String LOGIN_URL_MODIFICAR_TELEFONO="http://34.193.208.83/jardinero/modificar/modificar_telefono.php";
+    String LOGIN_URL_MODIFICAR_APELLIDO="http://34.193.208.83/jardinero/modificar/modificar_apellido.php";
+
+
 
     JSONParser jsonParser = new JSONParser();
     @Override
@@ -42,6 +48,10 @@ public class modificar extends AppCompatActivity implements View.OnClickListener
         mnombre=(Button)findViewById(R.id.mnombre);
         mapellido=(Button)findViewById(R.id.mapellido);
         mtelefono=(Button)findViewById(R.id.mtelefono);
+        textNombre=(TextView)findViewById(R.id.textNombre);
+        textApellido=(TextView)findViewById(R.id.textApellido);
+        textTelefono=(TextView)findViewById(R.id.textTelefono);
+
         mclave.setOnClickListener(this);
         mnombre.setOnClickListener(this);
         mapellido.setOnClickListener(this);
@@ -73,11 +83,16 @@ public class modificar extends AppCompatActivity implements View.OnClickListener
                                     break;
 
                 case R.id.mnombre:
-                    enombre.getText().toString();
+                     nombre = enombre.getText().toString();
+                    new modificar.modificar_nombre().execute();
                                     break;
                 case R.id.mapellido:
+                    apellido = eapellido.getText().toString();
+                    new modificar.modificar_apellido().execute();
                                     break;
                 case R.id.mtelefono:
+                    telefono = etelefono.getText().toString();
+                    new modificar.modificar_telefono().execute();
                                     break;
 
 
@@ -106,6 +121,78 @@ public class modificar extends AppCompatActivity implements View.OnClickListener
         protected void onPostExecute(String file_url) {
             textclave.setText(mensaje);
             clave_string=nueva_clave_string; // actualizacion de clave
+
+        }
+    }
+
+    class modificar_nombre extends AsyncTask<String, String, String> {
+
+        @Override
+        protected String doInBackground(String... params) {
+            List parametros = new ArrayList();
+            parametros.add(new BasicNameValuePair("nombre", nombre));
+
+            resultado = jsonParser.makeHttpRequest(LOGIN_URL_MODIFICAR_NOMBRE, "POST",
+                    parametros).toString();
+            try {
+                JSONObject object = new JSONObject(resultado);
+                JSONArray json_array = object.optJSONArray("respuesta");
+                mensaje = json_array.getJSONObject(0).getString("mensaje");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+        protected void onPostExecute(String file_url) {
+           textNombre.setText(mensaje);
+
+        }
+    }
+    class modificar_apellido extends AsyncTask<String, String, String> {
+
+        @Override
+        protected String doInBackground(String... params) {
+            List parametros = new ArrayList();
+            parametros.add(new BasicNameValuePair("apellido", apellido));
+
+            resultado = jsonParser.makeHttpRequest(LOGIN_URL_MODIFICAR_APELLIDO, "POST",
+                    parametros).toString();
+            try {
+                JSONObject object = new JSONObject(resultado);
+                JSONArray json_array = object.optJSONArray("respuesta");
+                mensaje = json_array.getJSONObject(0).getString("mensaje");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+        protected void onPostExecute(String file_url) {
+            textApellido.setText(mensaje);
+
+
+        }
+    }
+    class modificar_telefono extends AsyncTask<String, String, String> {
+
+        @Override
+        protected String doInBackground(String... params) {
+            List parametros = new ArrayList();
+            parametros.add(new BasicNameValuePair("telefono", telefono));
+
+            resultado = jsonParser.makeHttpRequest(LOGIN_URL_MODIFICAR_TELEFONO, "POST",
+                    parametros).toString();
+            try {
+                JSONObject object = new JSONObject(resultado);
+                JSONArray json_array = object.optJSONArray("respuesta");
+                mensaje = json_array.getJSONObject(0).getString("mensaje");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+        protected void onPostExecute(String file_url) {
+            textTelefono.setText(mensaje);
+        
 
         }
     }
