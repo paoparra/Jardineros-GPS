@@ -24,17 +24,6 @@
         />
 
     <Button
-        android:text="Cerrar Sesion"
-
-        android:id="@+id/csesion"
-        android:background="#71C400"
-        android:fontFamily="serif"
-        android:layout_width="230dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"/>
-
-    <Button
         android:id="@+id/evaluarJardinero"
 
         android:text="Evaluar Jardinero"
@@ -66,4 +55,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/csesion"
+
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#71C400"
+        android:fontFamily="serif"
+        android:text="Cerrar Sesion" />
 </LinearLayout>

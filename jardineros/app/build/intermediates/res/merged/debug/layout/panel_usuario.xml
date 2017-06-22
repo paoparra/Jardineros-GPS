@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#C2C2C2">
 
     <TextView
         android:text="TextView"
@@ -12,31 +13,57 @@
 
     <Button
         android:text="Modificar Datos"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/mdatos" />
 
-    <Button
-        android:text="Cerrar Sesion"
-        android:layout_width="match_parent"
+        android:id="@+id/mdatos"
+        android:background="#71C400"
+        android:fontFamily="serif"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
-        android:id="@+id/csesion" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
 
     <Button
         android:id="@+id/evaluarJardinero"
-        android:layout_width="match_parent"
+
+        android:text="Evaluar Jardinero"
+        android:background="#71C400"
+        android:fontFamily="serif"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
-        android:text="Evaluar Jardinero" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
 
     <Button
         android:id="@+id/reclamos"
-        android:layout_width="match_parent"
+
+        android:text="Reclamos"
+        android:background="#71C400"
+        android:fontFamily="serif"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
-        android:text="Reclamos" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
 
     <Button
         android:id="@+id/solicitarJardinero"
-        android:layout_width="match_parent"
+
+        android:text="Solicitar Jardinero"
+        android:background="#71C400"
+        android:fontFamily="serif"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
-        android:text="Solicitar Jardinero" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/csesion"
+
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#71C400"
+        android:fontFamily="serif"
+        android:text="Cerrar Sesion" />
 </LinearLayout>
