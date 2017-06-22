@@ -130,6 +130,8 @@ public class modificar extends AppCompatActivity implements View.OnClickListener
         @Override
         protected String doInBackground(String... params) {
             List parametros = new ArrayList();
+            parametros.add(new BasicNameValuePair("id", id_string));
+            parametros.add(new BasicNameValuePair("clave", clave_string));
             parametros.add(new BasicNameValuePair("nombre", nombre));
 
             resultado = jsonParser.makeHttpRequest(LOGIN_URL_MODIFICAR_NOMBRE, "POST",
@@ -153,6 +155,8 @@ public class modificar extends AppCompatActivity implements View.OnClickListener
         @Override
         protected String doInBackground(String... params) {
             List parametros = new ArrayList();
+            parametros.add(new BasicNameValuePair("id", id_string));
+            parametros.add(new BasicNameValuePair("clave", clave_string));
             parametros.add(new BasicNameValuePair("apellido", apellido));
 
             resultado = jsonParser.makeHttpRequest(LOGIN_URL_MODIFICAR_APELLIDO, "POST",
@@ -177,6 +181,8 @@ public class modificar extends AppCompatActivity implements View.OnClickListener
         @Override
         protected String doInBackground(String... params) {
             List parametros = new ArrayList();
+            parametros.add(new BasicNameValuePair("id", id_string));
+            parametros.add(new BasicNameValuePair("clave", clave_string));
             parametros.add(new BasicNameValuePair("telefono", telefono));
 
             resultado = jsonParser.makeHttpRequest(LOGIN_URL_MODIFICAR_TELEFONO, "POST",
