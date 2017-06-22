@@ -21,4 +21,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/csesion" />
+
+    <Button
+        android:id="@+id/evaluarJardinero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Evaluar Jardinero" />
+
+    <Button
+        android:id="@+id/reclamos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reclamos" />
+
+    <Button
+        android:id="@+id/solicitarJardinero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Solicitar Jardinero" />
 </LinearLayout>
