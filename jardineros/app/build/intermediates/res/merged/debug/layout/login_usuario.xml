@@ -15,14 +15,22 @@
         android:layout_height="wrap_content"
         android:id="@+id/loginusuario"
         android:layout_weight="0.12"
-        android:textSize="24sp"
-        android:textStyle="normal|bold" />
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:fontFamily="serif"
+        android:layout_gravity="center"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:ems="10"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:ems="15"
+        android:textSize="14sp"
+        android:fontFamily="serif"
         android:id="@+id/id"
         android:hint="Ingrese el usuario"/>
 
@@ -30,14 +38,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+
+        android:textSize="14sp"
+        android:ems="15"
         android:id="@+id/clave"
+
         android:hint="Ingrese la clave"/>
 
     <Button
         android:text="Entrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#71C400"
+        android:fontFamily="serif"
         android:id="@+id/entrar" />
 
     <TextView
@@ -45,5 +60,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/loginmensaje"
         android:layout_weight="0.14"
+
+        android:fontFamily="serif"
+        android:textColor="@android:color/black"
         android:textSize="24sp" />
 </LinearLayout>

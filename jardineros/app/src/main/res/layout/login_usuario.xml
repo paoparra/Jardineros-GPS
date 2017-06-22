@@ -40,7 +40,7 @@
         android:inputType="textPersonName"
         android:layout_gravity="center_horizontal"
         android:layout_margin="5dp"
-
+        android:fontFamily="serif"
         android:textSize="14sp"
         android:ems="15"
         android:id="@+id/clave"
