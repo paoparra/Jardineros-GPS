@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo\Jardineros-GPS\jardineros\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo\Jardineros-GPS\jardineros\app\src\debug\shaders"/></dataSet></merger>
