@@ -1,7 +1,7 @@
-#Thu Jun 22 14:11:33 CLT 2017
-base.0=C\:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4945619f7de2a387c3d44af8d0105afd3377b4de
+#Thu Jun 22 22:05:55 GMT-04:00 2017
+base.0=C\:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ebc8f7034abba2109b5458727ac09fa79f128132
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=C\:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_227031f964c23a5b310d8621ed52fc1f6ae36904\\classes.dex
-base.1=C\:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_227031f964c23a5b310d8621ed52fc1f6ae36904
-file.0=C\:\\Users\\Pipe\\Desktop\\android2\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4945619f7de2a387c3d44af8d0105afd3377b4de\\classes.dex
+file.1=C\:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7d07d19e0b2a6d8427a241f5534bdcff228e9edf\\classes.dex
+base.1=C\:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7d07d19e0b2a6d8427a241f5534bdcff228e9edf
+file.0=C\:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ebc8f7034abba2109b5458727ac09fa79f128132\\classes.dex
