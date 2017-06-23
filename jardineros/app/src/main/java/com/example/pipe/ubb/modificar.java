@@ -60,7 +60,7 @@ public class modificar extends AppCompatActivity implements View.OnClickListener
         clave_string = getIntent().getExtras().getString("clave"); // obtenemos la clave de la actividad anterior
 
     }
-    public boolean validarClave(String clave1,String clave2){
+    public static boolean validarClave(String clave1,String clave2){
         if(clave1.equals(clave2)){
             return true;
         }
@@ -68,6 +68,16 @@ public class modificar extends AppCompatActivity implements View.OnClickListener
             return false;
         }
     }
+
+    public static boolean telefonoValido(String digitos){
+        return digitos.length()==9;
+    }
+
+    public static boolean verifyNumeros(String digitos){
+        return digitos.matches("[-+]?\\d*\\.?\\d+");
+    }
+
+
     public void onClick(View v){
             switch (v.getId()){
                 case R.id.mclave:

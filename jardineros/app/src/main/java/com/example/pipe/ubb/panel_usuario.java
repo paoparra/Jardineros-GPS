@@ -33,6 +33,7 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
     Button modificar;
     private Button Puntuar;
     private Button Reclamar;
+    private Button VReclamar;
     private Button Solicitar;
     String opcion="";
 
@@ -55,13 +56,14 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
         Puntuar=(Button)findViewById(R.id.evaluarJardinero);
         Reclamar=(Button)findViewById(R.id.reclamos);
         Solicitar=(Button)findViewById(R.id.solicitarJardinero);
+        VReclamar=(Button)findViewById(R.id.Vreclamos);
 
         modificar.setOnClickListener(this); // boton modificar activado
         csesion.setOnClickListener(this); // boton se cierre de sesion activado
         Puntuar.setOnClickListener(this);
         Reclamar.setOnClickListener(this);
         Solicitar.setOnClickListener(this);
-
+        VReclamar.setOnClickListener(this);
     }
     public void onClick(View v) {
         switch (v.getId()){
@@ -85,6 +87,11 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
 
             case R.id.solicitarJardinero:
                 opcion="solicitar";
+                new panel_usuario.mostrar().execute();
+                break;
+
+            case R.id.Vreclamos:
+                opcion="ListaReclamos";
                 new panel_usuario.mostrar().execute();
                 break;
 
