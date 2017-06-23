@@ -16,4 +16,27 @@ public class modificarTest {
 
         assertTrue(modificar.validarClave("usuario","usuario"));
     }
+
+    @Test
+    public void TelefonoValido() throws Exception {
+
+        assertTrue(modificar.telefonoValido("328932892"));
+    }
+    @Test
+    public void TelefonoNoValido() throws Exception {
+
+        assertFalse(modificar.telefonoValido("38349"));
+    }
+
+    @Test
+    public void SoloNumeros() throws Exception {
+
+        assertFalse(modificar.verifyNumeros("3834sc9"));
+    }
+
+    @Test
+    public void SoloNumerostrue() throws Exception {
+
+        assertTrue(modificar.verifyNumeros("38349"));
+    }
 }
