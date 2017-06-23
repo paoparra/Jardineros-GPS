@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Rudyard\\.android\\build-cache\\302edeba1b63b461d778a8624c0dbc2295f489f8\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {

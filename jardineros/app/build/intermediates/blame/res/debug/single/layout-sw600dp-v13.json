@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\ef5925b81eea68865768b19e16244b44c8ea159c\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }

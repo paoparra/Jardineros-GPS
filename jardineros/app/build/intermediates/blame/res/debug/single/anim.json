@@ -1,7 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\ef5925b81eea68865768b19e16244b44c8ea159c\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
@@ -12,20 +12,20 @@
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\anim\\design_fab_in.xml"
     },
     {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\ef5925b81eea68865768b19e16244b44c8ea159c\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\anim\\design_fab_out.xml"
     },
     {
-        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\anim\\design_snackbar_in.xml"
-    },
-    {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
@@ -36,16 +36,28 @@
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\anim\\design_snackbar_out.xml"
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\ef5925b81eea68865768b19e16244b44c8ea159c\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
@@ -62,5 +74,57 @@
     {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\ef5925b81eea68865768b19e16244b44c8ea159c\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\ef5925b81eea68865768b19e16244b44c8ea159c\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\ef5925b81eea68865768b19e16244b44c8ea159c\\output\\res\\anim\\design_snackbar_in.xml"
     }
 ]

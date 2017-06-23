@@ -55,6 +55,7 @@ public class JardinerosLista extends Activity {
                                         int position, long id) {
                     //Toast.makeText(getApplicationContext(), "Click ListItem Number " + position, Toast.LENGTH_LONG).show();
                    // view.setBackgroundColor(Color.LTGRAY);  //pone el color cuando selecciono
+                    String jardinero=listview.getAdapter().getItem(position).toString();
 
                     Intent intent;
 
@@ -63,6 +64,9 @@ public class JardinerosLista extends Activity {
                     }
                     else if (eleccion.equals("solicitar")==true){
                         intent = new Intent(JardinerosLista.this, Solicitar.class);
+                    }
+                    else if (eleccion.equals("ListaReclamos")==true){
+                        intent = new Intent(JardinerosLista.this, Ver_Especifico.class);
                     }
                     else{ //para en caso de agun erroe tambien enviarlo a "evaluar", y que no caiga el sistema
                         intent = new Intent(JardinerosLista.this, Main2Activity.class);
@@ -75,6 +79,7 @@ public class JardinerosLista extends Activity {
                     Bundle b = new Bundle();
                     b.putString("NOMBRE", listview.getAdapter().getItem(position).toString());
                     b.putString("usuario", usuario);
+                    b.putString("jardinero", jardinero);
                     //Añadimos la información al intent
                     intent.putExtras(b);
 

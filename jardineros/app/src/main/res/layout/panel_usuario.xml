@@ -44,7 +44,16 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/Vreclamos"
 
+        android:text="Ver Reclamos"
+        android:background="#71C400"
+        android:fontFamily="serif"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
     <Button
         android:id="@+id/solicitarJardinero"
 

@@ -26,6 +26,7 @@
         <activity android:name=".JardinerosLista"/>
         <activity android:name=".Main2Activity"/>
         <activity android:name=".Especifico"/>
+        <activity android:name=".Ver_Especifico"/>
         <activity android:name=".Solicitar"/>
     </application>
 
