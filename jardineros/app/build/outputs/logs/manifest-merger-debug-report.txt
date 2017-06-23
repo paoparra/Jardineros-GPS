@@ -1,118 +1,118 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:3:5-35
-		INJECTED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:7:5-30:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Pipe\.android\build-cache\156921ccdb2a1b76ca7e5ba8a1e1144711914eeb\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:24.2.1] C:\Users\Pipe\.android\build-cache\b683a82e57f2b5a10b236a105e7ee717072bf8cd\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Pipe\.android\build-cache\742807d2f5faa476d0f9916735ca305d4fc1e4d5\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Pipe\.android\build-cache\5674d704bda35305c9661dc150bf74f275c73b34\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Pipe\.android\build-cache\554d8ca18b5c9d0c0d1040f708acea199381438c\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Pipe\.android\build-cache\c479514c2ad58c10cff03e8522e16d18b34246f2\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Pipe\.android\build-cache\81dea1e750b8492643a05553fbc24ed3d416758c\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Pipe\.android\build-cache\62371ff11d246d5b3ea6ab260aebe5c1b5f308d5\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Pipe\.android\build-cache\19c8bf5383a7846d1f6a08e3f89342a9c8a9db9e\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Pipe\.android\build-cache\5c885c8185ad8c2485ff66c0c481fd027144caa5\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Pipe\.android\build-cache\c7fed8911e6d5374a264e35ef45cbc04ec2dd0f2\output\AndroidManifest.xml:25:5-20
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:7:5-30:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Paola Alejandra\.android\build-cache\a38cd0064304a6cba4d779b7afa73cf7b106d4cb\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\b9a1b662119c28d9c71c527baf239deb52bbde6c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\2248a1354f0363e8f222c93e21a4c2f4525683d6\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\3d3888627881efde41355adce532c109b664e16c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\43d3a751b7d69114936daf12ba27ee1452d92ae8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\aa3d74a74b4f726be26c60a3e7a8b7d89f90603d\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\ca58760cfc03e1bc58dab3e4ba524598afc81eae\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\0cee75841000e2d5c226c51a053a1ba300d816db\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\0f77e090ddad17b9e21c2b20eb7715d0963ec893\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\6b0e9abe1a0d69727b8e2907f012e57575bbddf8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\da72eae38fedab509da68a9f4031f47411e4d709\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:10:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:11:9-35
 	android:allowBackup
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:8:9-35
 	android:icon
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:9:9-43
 	android:theme
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:12:9-40
 activity#com.example.pipe.ubb.UBB
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:13:19-38
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:13:19-38
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:17:27-74
 activity#com.example.pipe.ubb.RegistrarUsuario
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:20:9-54
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:20:9-54
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:20:19-51
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:20:19-51
 activity#com.example.pipe.ubb.RegistrarUsuarioJardinero
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:21:9-63
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:21:9-63
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:21:19-60
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:21:19-60
 activity#com.example.pipe.ubb.Ventana_registro
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:22:9-54
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:22:9-54
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:22:19-51
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:22:19-51
 activity#com.example.pipe.ubb.login_usuario
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:23:9-50
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:23:9-50
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:23:19-48
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:23:19-48
 activity#com.example.pipe.ubb.modificar
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:24:9-46
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:24:9-46
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:24:19-44
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:24:19-44
 activity#com.example.pipe.ubb.panel_usuario
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:25:9-50
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:25:9-50
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:25:19-48
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:25:19-48
 activity#com.example.pipe.ubb.JardinerosLista
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:26:9-52
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:26:9-52
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:26:19-50
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:26:19-50
 activity#com.example.pipe.ubb.Main2Activity
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:27:9-50
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:27:9-50
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:27:19-48
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:27:19-48
 activity#com.example.pipe.ubb.Especifico
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:28:9-47
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:28:9-47
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:28:19-45
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:28:19-45
 activity#com.example.pipe.ubb.Solicitar
-ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:29:9-46
+ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:29:9-46
 	android:name
-		ADDED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:29:19-44
+		ADDED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml:29:19-44
 uses-sdk
-INJECTED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Pipe\.android\build-cache\156921ccdb2a1b76ca7e5ba8a1e1144711914eeb\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:24.2.1] C:\Users\Pipe\.android\build-cache\b683a82e57f2b5a10b236a105e7ee717072bf8cd\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Pipe\.android\build-cache\742807d2f5faa476d0f9916735ca305d4fc1e4d5\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Pipe\.android\build-cache\5674d704bda35305c9661dc150bf74f275c73b34\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Pipe\.android\build-cache\554d8ca18b5c9d0c0d1040f708acea199381438c\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Pipe\.android\build-cache\c479514c2ad58c10cff03e8522e16d18b34246f2\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Pipe\.android\build-cache\81dea1e750b8492643a05553fbc24ed3d416758c\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Pipe\.android\build-cache\62371ff11d246d5b3ea6ab260aebe5c1b5f308d5\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Pipe\.android\build-cache\19c8bf5383a7846d1f6a08e3f89342a9c8a9db9e\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Pipe\.android\build-cache\4c430dd835c153f76ae741be9056d63ae6038f74\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Pipe\.android\build-cache\5c885c8185ad8c2485ff66c0c481fd027144caa5\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Pipe\.android\build-cache\c7fed8911e6d5374a264e35ef45cbc04ec2dd0f2\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Paola Alejandra\.android\build-cache\a38cd0064304a6cba4d779b7afa73cf7b106d4cb\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\b9a1b662119c28d9c71c527baf239deb52bbde6c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\2248a1354f0363e8f222c93e21a4c2f4525683d6\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\3d3888627881efde41355adce532c109b664e16c\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\43d3a751b7d69114936daf12ba27ee1452d92ae8\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\aa3d74a74b4f726be26c60a3e7a8b7d89f90603d\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\ca58760cfc03e1bc58dab3e4ba524598afc81eae\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\0cee75841000e2d5c226c51a053a1ba300d816db\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\0f77e090ddad17b9e21c2b20eb7715d0963ec893\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\8ff3ee1800f856ccce52c37833feec67dacefbdb\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\6b0e9abe1a0d69727b8e2907f012e57575bbddf8\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\da72eae38fedab509da68a9f4031f47411e4d709\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Pipe\.android\build-cache\742807d2f5faa476d0f9916735ca305d4fc1e4d5\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Paola Alejandra\.android\build-cache\2248a1354f0363e8f222c93e21a4c2f4525683d6\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Pipe\Desktop\android2\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\src\main\AndroidManifest.xml
