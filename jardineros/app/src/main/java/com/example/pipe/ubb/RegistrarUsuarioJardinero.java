@@ -100,13 +100,34 @@ public class RegistrarUsuarioJardinero extends AppCompatActivity implements View
                 else{
                     textViewMensaje.setText("Existen campos vacíos");
                     textViewMensaje.setTextSize(18);
-                    if(nombre.isEmpty()) findViewById(R.id.editTextNombre).requestFocus();
-                    else if (apellido.isEmpty()) findViewById(R.id.editTextApellido).requestFocus();
-                    else if (correo.isEmpty()) findViewById(R.id.editTextCorreo).requestFocus();
-                    else if(telefono.isEmpty()) findViewById(R.id.editTextTelefono).requestFocus();
-                    else if (capacitaciones.isEmpty()) findViewById(R.id.editTextCapacitaciones).requestFocus();
-                    else if(contrasenha.isEmpty()) findViewById(R.id.editTextContrasena).requestFocus();
-                    else if(contrasenha2.isEmpty()) findViewById(R.id.editTextContrasena2).requestFocus();
+                    if(nombre.isEmpty()){
+                        findViewById(R.id.editTextNombre).requestFocus();
+                        editTextNombre.setHintTextColor(getResources().getColor(R.color.colorAccent));
+                    }
+                    else if (apellido.isEmpty()){
+                        findViewById(R.id.editTextApellido).requestFocus();
+                        edidTextApellido.setHintTextColor(getResources().getColor(R.color.colorAccent));
+                    }
+                    else if (correo.isEmpty()){
+                        findViewById(R.id.editTextCorreo).requestFocus();
+                        edidTextCorreo.setHintTextColor(getResources().getColor(R.color.colorAccent));
+                    }
+                    else if(telefono.isEmpty()){
+                        findViewById(R.id.editTextTelefono).requestFocus();
+                        edidTextTelefono.setHintTextColor(getResources().getColor(R.color.colorAccent));
+                    }
+                    else if (capacitaciones.isEmpty()){
+                        findViewById(R.id.editTextCapacitaciones).requestFocus();
+                        editTextCapacitaciones.setHintTextColor(getResources().getColor(R.color.colorAccent));
+                    }
+                    else if(contrasenha.isEmpty()){
+                        findViewById(R.id.editTextContrasena).requestFocus();
+                        edidTextContrasena.setHintTextColor(getResources().getColor(R.color.colorAccent));
+                    }
+                    else if(contrasenha2.isEmpty()){
+                        findViewById(R.id.editTextContrasena2).requestFocus();
+                        edidTextContrasena2.setHintTextColor(getResources().getColor(R.color.colorAccent));
+                    }
                 }
                 break;
         }

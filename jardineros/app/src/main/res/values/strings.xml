@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Jardineros</string>
+    <string name="app_name">Uber Jardinero</string>
     <string name="title_activity_registrar_usuario">RegistrarUsuario</string>
 </resources>

@@ -5,38 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:background="#C2C2C2">
+    android:background="#9DC0B5">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="315dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.11"
+        android:fontFamily="serif"
+        android:text="Bienvenido Jardinero, ¡registrece para poder ofrecer sus servicios!"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="320dp">
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="200dp"
             android:orientation="vertical"
             android:weightSum="1">
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="315dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="15dp"
-                android:layout_weight="0.11"
-                android:fontFamily="serif"
-                android:text="Bienvenido Jardinero, ¡registrece para poder ofrecer sus servicios!"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
-                android:textSize="18sp" />
 
             <EditText
                 android:id="@+id/editTextNombre"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="37dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="5dp"
+                android:layout_margin="7dp"
+                android:padding="5dp"
+                android:background="@drawable/input_text_redondo"
                 android:ems="15"
                 android:textSize="14sp"
                 android:fontFamily="serif"
@@ -46,9 +48,11 @@
             <EditText
                 android:id="@+id/editTextApellido"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="37dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="5dp"
+                android:layout_margin="7dp"
+                android:padding="5dp"
+                android:background="@drawable/input_text_redondo"
                 android:ems="15"
                 android:textSize="14sp"
                 android:fontFamily="serif"
@@ -58,9 +62,11 @@
             <EditText
                 android:id="@+id/editTextCorreo"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="37dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="5dp"
+                android:layout_margin="7dp"
+                android:padding="5dp"
+                android:background="@drawable/input_text_redondo"
                 android:ems="15"
                 android:fontFamily="serif"
                 android:hint="Ingrese su Correo"
@@ -70,9 +76,11 @@
             <EditText
                 android:id="@+id/editTextTelefono"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="37dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="5dp"
+                android:layout_margin="7dp"
+                android:padding="5dp"
+                android:background="@drawable/input_text_redondo"
                 android:ems="15"
                 android:maxLength="9"
                 android:textSize="14sp"
@@ -83,9 +91,11 @@
             <EditText
                 android:id="@+id/editTextCapacitaciones"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="37dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="5dp"
+                android:layout_margin="7dp"
+                android:padding="5dp"
+                android:background="@drawable/input_text_redondo"
                 android:ems="15"
                 android:textSize="14sp"
                 android:fontFamily="serif"
@@ -95,9 +105,11 @@
             <EditText
                 android:id="@+id/editTextContrasena"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="37dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="5dp"
+                android:layout_margin="7dp"
+                android:padding="5dp"
+                android:background="@drawable/input_text_redondo"
                 android:ems="15"
                 android:textSize="14sp"
                 android:fontFamily="serif"
@@ -107,26 +119,31 @@
             <EditText
                 android:id="@+id/editTextContrasena2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="37dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="80dp"
+                android:padding="5dp"
+                android:background="@drawable/input_text_redondo"
                 android:ems="15"
                 android:textSize="14sp"
                 android:fontFamily="serif"
                 android:hint="Repita contraseña"
                 android:inputType="textPassword"/>
+        </LinearLayout>
+    </ScrollView>
 
             <Button
                 android:id="@+id/btnEnviarRegistro"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="15dp"
-                android:background="#71C400"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boton_redondo"
                 android:fontFamily="serif"
                 android:text="Enviar Registro"
                 android:textAlignment="center"
-                android:textColor="@android:color/black" />
+                android:textColor="#002117" />
 
             <TextView
                 android:id="@+id/textViewMensaje"
@@ -138,9 +155,8 @@
                 android:fontFamily="serif"
                 android:text=""
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
+                android:textColor="#002117"
                 android:textSize="12sp" />
 
-        </LinearLayout>
-    </ScrollView>
+
 </LinearLayout>

@@ -2,43 +2,58 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C2C2C2">
-
+    android:background="#9DC0B5">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
     <TextView
-        android:text="Modificar Contraseña"
+        android:text="Para modificar contraseña"
+        android:fontFamily="serif"
+        android:textSize="18sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#002117"
         android:id="@+id/textclave" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:ems="10"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_text_redondo"
+        android:padding="15dp"
         android:id="@+id/eclave1"
         android:inputType="textPassword"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:fontFamily="serif"
         android:hint="Ingrese nueva contraseña" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_text_redondo"
+        android:padding="15dp"
         android:inputType="textPassword"
-        android:ems="10"
         android:id="@+id/eclave2"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:fontFamily="serif"
         android:hint="Repita nueva contraseña" />
 
     <Button
         android:id="@+id/mclave"
-
-        android:background="#71C400"
+        android:background="@drawable/boton_redondo"
         android:fontFamily="serif"
-        android:layout_width="230dp"
-        android:layout_marginTop="20dp"
-        android:layout_height="wrap_content"
+        android:layout_width="170dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="50dp"
+        android:textColor="#002117"
         android:layout_gravity="center_horizontal"
         android:text="Modificar" />
 
@@ -46,25 +61,33 @@
         android:id="@+id/textNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Modificar Nombre" />
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif"
+        android:textSize="18sp"
+        android:textColor="#002117"
+        android:text="Para modificar nombre" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_text_redondo"
+        android:padding="15dp"
         android:inputType="textPersonName"
-        android:ems="10"
         android:id="@+id/enombre"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:fontFamily="serif"
         android:hint="Ingrese nuevo nombre" />
 
     <Button
         android:text="Modificar"
-        android:background="#71C400"
+        android:background="@drawable/boton_redondo"
         android:fontFamily="serif"
-        android:layout_width="230dp"
-        android:layout_marginTop="4dp"
-        android:layout_height="wrap_content"
+        android:layout_width="170dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="50dp"
+        android:textColor="#002117"
         android:layout_gravity="center_horizontal"
         android:id="@+id/mnombre" />
 
@@ -72,52 +95,73 @@
         android:id="@+id/textApellido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Modificar Apellido" />
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:fontFamily="serif"
+        android:textColor="#002117"
+        android:text="Para modificar apellido" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_text_redondo"
+        android:padding="15dp"
         android:inputType="textPersonName"
-        android:ems="10"
         android:id="@+id/eapellido"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:fontFamily="serif"
         android:hint="Ingrese nuevo apellido" />
 
-    <Button
-        android:text="Modificar"
-        android:background="#71C400"
-        android:fontFamily="serif"
-        android:layout_width="230dp"
-        android:layout_marginTop="4dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/mapellido" />
 
-    <TextView
-        android:id="@+id/textTelefono"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Modificar Telefono" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        <Button
+            android:text="Modificar"
+            android:background="@drawable/boton_redondo"
+            android:fontFamily="serif"
+            android:layout_width="170dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="50dp"
+            android:textColor="#002117"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/mapellido" />
 
-        android:ems="10"
+        <TextView
+            android:id="@+id/textTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:fontFamily="serif"
+            android:textColor="#002117"
+            android:text="Para modificar teléfono" />
+
+        <EditText
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_text_redondo"
+        android:padding="15dp"
         android:id="@+id/etelefono"
         android:hint="Ingrese nuevo telefono"
+        android:textSize="14sp"
         android:inputType="number"/>
 
     <Button
         android:text="Modificar"
-        android:background="#71C400"
+        android:background="@drawable/boton_redondo"
         android:fontFamily="serif"
-        android:layout_width="230dp"
-        android:layout_marginTop="4dp"
-        android:layout_height="wrap_content"
+        android:layout_width="170dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="50dp"
+        android:textColor="#002117"
         android:layout_gravity="center_horizontal"
         android:id="@+id/mtelefono"
        />
+    </LinearLayout>
+</ScrollView>
 
 </LinearLayout>

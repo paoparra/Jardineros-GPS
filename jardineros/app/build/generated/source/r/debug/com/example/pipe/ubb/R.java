@@ -3024,12 +3024,17 @@ containing a value of this type.
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020050;
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
-        public static final int design_fab_background=0x7f020053;
-        public static final int design_ic_visibility=0x7f020054;
-        public static final int design_snackbar_background=0x7f020055;
-        public static final int gardener=0x7f020056;
-        public static final int navigation_empty_icon=0x7f020057;
-        public static final int notification_template_icon_bg=0x7f020058;
+        public static final int boton_redondo=0x7f020053;
+        public static final int design_fab_background=0x7f020054;
+        public static final int design_ic_visibility=0x7f020055;
+        public static final int design_snackbar_background=0x7f020056;
+        public static final int gardener=0x7f020057;
+        public static final int icono_activity_ubb=0x7f020058;
+        public static final int input_text_redondo=0x7f020059;
+        public static final int logo=0x7f02005a;
+        public static final int navigation_empty_icon=0x7f02005b;
+        public static final int notification_template_icon_bg=0x7f02005d;
+        public static final int registro=0x7f02005c;
     }
     public static final class id {
         public static final int Hora=0x7f0c0081;
@@ -3068,6 +3073,7 @@ containing a value of this type.
         public static final int btnLoginJardinero=0x7f0c0084;
         public static final int btnLoginUsuario=0x7f0c0083;
         public static final int btnSubmit=0x7f0c0077;
+        public static final int btnregistrar=0x7f0c0098;
         public static final int buscarp=0x7f0c00bc;
         public static final int buttonPanel=0x7f0c004e;
         public static final int caja=0x7f0c0089;
@@ -3078,7 +3084,7 @@ containing a value of this type.
         public static final int chains=0x7f0c0012;
         public static final int checkbox=0x7f0c005c;
         public static final int chronometer=0x7f0c00ad;
-        public static final int clave=0x7f0c0096;
+        public static final int clave=0x7f0c0095;
         public static final int clip_horizontal=0x7f0c0036;
         public static final int clip_vertical=0x7f0c0037;
         public static final int collapseActionView=0x7f0c003e;
@@ -3110,7 +3116,7 @@ containing a value of this type.
         public static final int enombre=0x7f0c009e;
         public static final int enterAlways=0x7f0c001d;
         public static final int enterAlwaysCollapsed=0x7f0c001e;
-        public static final int entrar=0x7f0c0097;
+        public static final int entrar=0x7f0c0096;
         public static final int etelefono=0x7f0c00a4;
         public static final int evaluarJardinero=0x7f0c00b5;
         public static final int exitUntilCollapsed=0x7f0c001f;
@@ -3123,7 +3129,7 @@ containing a value of this type.
         public static final int home=0x7f0c0004;
         public static final int homeAsUp=0x7f0c0018;
         public static final int icon=0x7f0c004c;
-        public static final int id=0x7f0c0095;
+        public static final int id=0x7f0c0094;
         public static final int ifRoom=0x7f0c003f;
         public static final int image=0x7f0c0049;
         public static final int imageView2=0x7f0c0075;
@@ -3142,8 +3148,7 @@ containing a value of this type.
         public static final int listview=0x7f0c0078;
         public static final int listviewp=0x7f0c00bd;
         public static final int login_adminsitrador=0x7f0c0086;
-        public static final int loginmensaje=0x7f0c0098;
-        public static final int loginusuario=0x7f0c0094;
+        public static final int loginmensaje=0x7f0c0097;
         public static final int mapellido=0x7f0c00a2;
         public static final int mclave=0x7f0c009c;
         public static final int mdatos=0x7f0c00b4;

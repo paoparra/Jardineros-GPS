@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.pipe.ubb.UBB"
     android:layout_width="wrap_content"
-    android:background="#C2C2C2">
+    android:background="#9DC0B5">
 
     <LinearLayout
         android:orientation="vertical"
@@ -24,27 +24,34 @@
 
         <Button
             android:id="@+id/registrarUser"
-            android:layout_width="230dp"
-            android:layout_height="wrap_content"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            android:background="#71C400"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boton_redondo"
             android:fontFamily="serif"
             android:text="Registro Usuario"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="#01341D" />
 
         <Button
             android:id="@+id/registrarJardinero"
-            android:layout_width="230dp"
-            android:layout_height="wrap_content"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="60dp"
-            android:background="#71C400"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boton_redondo"
             android:fontFamily="serif"
             android:text="Registro Jardinero"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="#01341D" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/registro"/>
 
     </LinearLayout>
 
