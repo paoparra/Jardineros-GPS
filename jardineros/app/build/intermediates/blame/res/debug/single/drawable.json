@@ -56,6 +56,10 @@
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\admin.png",
+        "source": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\src\\main\\res\\drawable\\admin.png"
+    },
+    {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
@@ -112,6 +116,10 @@
         "source": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\src\\main\\res\\drawable\\gardener.png"
     },
     {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\administrador.png",
+        "source": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\src\\main\\res\\drawable\\administrador.png"
+    },
+    {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
@@ -158,6 +166,10 @@
     {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\2248a1354f0363e8f222c93e21a4c2f4525683d6\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\llave.png",
+        "source": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\src\\main\\res\\drawable\\llave.png"
     },
     {
         "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",

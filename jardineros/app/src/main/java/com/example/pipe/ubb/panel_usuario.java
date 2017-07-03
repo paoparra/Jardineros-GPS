@@ -127,7 +127,6 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
                 e.printStackTrace();
             }
 
-
             return null;
         }
 

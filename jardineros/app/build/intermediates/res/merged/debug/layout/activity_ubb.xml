@@ -70,7 +70,7 @@
             android:layout_gravity="center"/>
 
         <Button
-            android:id="@+id/login_adminsitrador"
+            android:id="@+id/login_administrador"
             android:layout_width="280dp"
             android:layout_height="40dp"
             android:layout_gravity="center_horizontal"

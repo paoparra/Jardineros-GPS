@@ -34,6 +34,10 @@
         <activity android:name="com.example.pipe.ubb.Especifico" />
         <activity android:name="com.example.pipe.ubb.Ver_Especifico" />
         <activity android:name="com.example.pipe.ubb.Solicitar" />
+        <activity android:name="com.example.pipe.ubb.login_admin" />
+        <activity android:name="com.example.pipe.ubb.panel_admin" />
+        <activity android:name="com.example.pipe.ubb.mostrarUsuarios" />
+        <activity android:name="com.example.pipe.ubb.mostrarJardineros" />
     </application>
 
 </manifest>

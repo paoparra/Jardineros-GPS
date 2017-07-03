@@ -20,7 +20,7 @@ import java.util.List;
 
 
 public class UBB extends AppCompatActivity implements View.OnClickListener {
-   private Button btnLoginUsuario,btnLoginJardinero,registrar,login_administrador;
+   private Button btnLoginUsuario,btnLoginJardinero,registrar,Login_administrador;
 
     JSONParser jsonParser = new JSONParser();
     @Override
@@ -30,11 +30,11 @@ public class UBB extends AppCompatActivity implements View.OnClickListener {
         btnLoginUsuario=(Button)findViewById(R.id.btnLoginUsuario);
         btnLoginJardinero=(Button)findViewById(R.id.btnLoginJardinero);
         registrar=(Button)findViewById(R.id.registrar);
-        login_administrador=(Button)findViewById(R.id.login_adminsitrador);
+        Login_administrador=(Button)findViewById(R.id.login_administrador);
         btnLoginUsuario.setOnClickListener(this);
         btnLoginJardinero.setOnClickListener(this);
         registrar.setOnClickListener(this);
-        login_administrador.setOnClickListener(this);
+        Login_administrador.setOnClickListener(this);
 
 
 
@@ -53,8 +53,10 @@ public class UBB extends AppCompatActivity implements View.OnClickListener {
                     Intent a=new Intent(this,Ventana_registro.class);
                     startActivity(a);
                     break;
-            case R.id.login_adminsitrador:
-                                        break;
+            case R.id.login_administrador:
+                    Intent f=new Intent(this,login_admin.class);
+                    startActivity(f);
+                    break;
 
         }
     }

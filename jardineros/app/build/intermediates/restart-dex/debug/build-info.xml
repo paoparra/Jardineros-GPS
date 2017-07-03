@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1498363246033"
+    timestamp="1498867473407"
     token="8842092697546314891"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,16 +29,22 @@
 
     <build
         build-mode="FULL"
-        timestamp="1498362879161"
+        timestamp="1498864267444"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -56,13 +62,7 @@
             location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -70,7 +70,26 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1498363246033"
+        timestamp="1498866765201"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1498866864256"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1498867473407"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\outputs\apk\app-debug.apk"
