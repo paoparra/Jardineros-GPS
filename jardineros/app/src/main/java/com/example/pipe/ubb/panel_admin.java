@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import org.apache.http.message.BasicNameValuePair;
@@ -22,9 +23,6 @@ public class panel_admin extends AppCompatActivity implements View.OnClickListen
     String seudonimoString, claveString;
     TextView informacion;
     Button mostrarEliminarUsuario, mostrarEliminarJardinero, csesion;
-
-    String  LOGIN_URL3="http://34.193.208.83/jardinero/admin/usuarios.php";
-    JSONParser jsonParser = new JSONParser();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

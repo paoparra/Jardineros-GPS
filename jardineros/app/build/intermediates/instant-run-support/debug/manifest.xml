@@ -36,6 +36,8 @@
         <activity android:name="com.example.pipe.ubb.Solicitar" />
         <activity android:name="com.example.pipe.ubb.login_admin" />
         <activity android:name="com.example.pipe.ubb.panel_admin" />
+        <activity android:name="com.example.pipe.ubb.mostrarUsuarios" />
+        <activity android:name="com.example.pipe.ubb.mostrarJardineros" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

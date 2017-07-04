@@ -24,7 +24,7 @@
         android:textSize="18sp" />
 
     <Button
-        android:text="Mostrar / Eliminar Usuarios"
+        android:text="Eliminar Usuarios"
         android:id="@+id/btnMostrarUsuarios"
         android:background="@drawable/boton_redondo"
         android:fontFamily="serif"
@@ -37,7 +37,7 @@
 
     <Button
         android:id="@+id/btnMostrarJardineros"
-        android:text="Mostrar / Eliminar Jardineros"
+        android:text="Eliminar Jardineros"
         android:background="@drawable/boton_redondo"
         android:fontFamily="serif"
         android:layout_width="280dp"
