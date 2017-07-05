@@ -32,6 +32,9 @@
         <activity android:name=".panel_admin" />
         <activity android:name=".mostrarUsuarios" />
         <activity android:name=".mostrarJardineros"></activity>
+        <activity android:name=".login_jardinero" />
+        <activity android:name=".panel_jardinero" />
+        <activity android:name=".modificar_jardinero" />
     </application>
 
 </manifest>
