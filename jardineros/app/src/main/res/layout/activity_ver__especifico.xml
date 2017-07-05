@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#9DC0B5"
     tools:context="com.example.pipe.ubb.Ver_Especifico">
 
     <LinearLayout
@@ -21,9 +22,12 @@
         <Button
 
             android:text="Ver reclamos"
-            android:background="#71C400"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:background="@drawable/boton_redondo"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:textColor="#002117"
             android:id="@+id/VerLista"
             android:layout_marginTop="10dp"
             android:layout_alignParentTop="true"/>
@@ -34,6 +38,9 @@
 
             <TextView
                 android:id="@+id/caja"
+                android:textColor="#002117"
+                android:fontFamily="serif"
+                android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </ScrollView>

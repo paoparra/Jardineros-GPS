@@ -26,6 +26,7 @@ import java.util.List;
 
 public class login_usuario extends AppCompatActivity implements View.OnClickListener {
     Button entrar;
+    Button btnregistrar;
     EditText id, clave;
     TextView loginmensaje;
     String id_string, clave_string, resultado;
@@ -43,10 +44,13 @@ public class login_usuario extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_usuario);
         entrar = (Button) findViewById(R.id.entrar);
+        btnregistrar = (Button) findViewById(R.id.btnregistrar);
         id = (EditText) findViewById(R.id.id);
         clave = (EditText) findViewById(R.id.clave);
         loginmensaje = (TextView) findViewById(R.id.loginmensaje);
         entrar.setOnClickListener(this);
+        btnregistrar.setOnClickListener(this);
+
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -54,10 +58,15 @@ public class login_usuario extends AppCompatActivity implements View.OnClickList
     }
 
     public void onClick(View v) {
-        id_string = id.getText().toString();
-        clave_string = clave.getText().toString();
-        new login().execute();  // ejecucion de asynctask
-
+        switch (v.getId()){
+            case R.id.entrar:id_string = id.getText().toString();
+                            clave_string = clave.getText().toString();
+                            new login().execute();  // ejecucion de asynctask
+                            break;
+            case R.id.btnregistrar: Intent a = new Intent(this, RegistrarUsuario.class);
+                                startActivity(a);
+                                break;
+        }
 
     }
 

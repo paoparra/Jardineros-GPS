@@ -10,6 +10,7 @@ import android.os.Bundle;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.test.suitebuilder.TestMethod;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -65,24 +66,40 @@ public class Especifico extends Activity {
             public void onClick(View v) {
 
                  Texto = txtmensaje.getText().toString();
-                //long dat= currentTimeMillis();
-                ID=Long.toString(currentTimeMillis());
-                Log.d("mensaje"," id = "+ID);
-                Log.d("mensaje",""+Texto);
 
-                Context context = getApplicationContext();
-                CharSequence text = " Reclamo enviado!";
-                int duration = Toast.LENGTH_SHORT;
+                if (VerificarMensaje(Texto)){ // es decir , si hay mensaje
+                    //long dat= currentTimeMillis();
+                    ID=Long.toString(currentTimeMillis());
+                    Log.d("mensaje"," id = "+ID);
+                    Log.d("mensaje",""+Texto);
+                    Context context = getApplicationContext();
+                    CharSequence text = " Reclamo enviado!";
+                    int duration = Toast.LENGTH_SHORT;
 
-                Toast toast = Toast.makeText(context, text, duration);
-                toast.show();
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.show();
 
-                new Especifico.ReclamoJ().execute();
+                    new Especifico.ReclamoJ().execute();
+
+                }
+             else{
+                    Context context = getApplicationContext();
+                    CharSequence text = " No hay reclamo escrito!";
+                    int duration = Toast.LENGTH_SHORT;
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.show();
+                }
             }
         });
 
     }
 
+    public static boolean VerificarMensaje(String mensaje){
+        if (mensaje.equals("")==true)
+            return false;
+        else
+            return true;
+    }
 
     class ReclamoJ extends AsyncTask<String, String, String> {
         protected void onPreExecute() {

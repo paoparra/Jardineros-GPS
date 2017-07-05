@@ -12,7 +12,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.pipe.ubb.UBB"
     android:layout_width="wrap_content"
-    android:background="#C2C2C2">
+    android:background="#9DC0B5">
 
     <LinearLayout
         android:orientation="vertical"
@@ -25,60 +25,61 @@
 
         <Button
             android:id="@+id/btnLoginUsuario"
-            android:layout_width="230dp"
-            android:layout_height="wrap_content"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:background="#71C400"
+            android:background="@drawable/boton_redondo"
             android:fontFamily="serif"
             android:text="Login Usuario"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="#01341D"
+            />
         <Button
             android:id="@+id/btnLoginJardinero"
-            android:layout_width="230dp"
-            android:layout_height="wrap_content"
+            android:layout_width="280dp"
+            android:layout_height="50sp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:background="#71C400"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/boton_redondo"
             android:fontFamily="serif"
             android:text="Login Jardinero"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="#01341D" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Si no posees cuenta, ¡registrate!"
-            android:textAlignment="center"
-            android:layout_marginTop="40dp"
-            android:textColor="@android:color/black"
-            android:fontFamily="serif"/>
+
 
         <Button
             android:id="@+id/registrar"
             android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:background="#71C400"
+            android:layout_marginTop="40dp"
+            android:background="@null"
+            android:textAllCaps="false"
             android:fontFamily="serif"
-            android:text="Registrarte"
+            android:text="Si no posees cuenta \n¡Registrate! ¡Toca Aquí!"
             android:textAlignment="center"
-            android:textColor="@android:color/black" />
+            android:textColor="#002117" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/icono_activity_ubb"
+            android:layout_gravity="center"/>
 
         <Button
-            android:id="@+id/login_adminsitrador"
-            android:layout_width="230dp"
-            android:layout_height="wrap_content"
+            android:id="@+id/login_administrador"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="170dp"
-            android:background="#71C400"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/boton_redondo"
             android:fontFamily="serif"
             android:text="Login Administrador"
             android:textAlignment="center"
-            android:textColor="@android:color/black"
+            android:textColor="#01341D"
 
             />
 
