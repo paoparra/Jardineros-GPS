@@ -68,18 +68,27 @@ public class Especifico extends Activity {
                  Texto = txtmensaje.getText().toString();
 
                 if (VerificarMensaje(Texto)){ // es decir , si hay mensaje
-                    //long dat= currentTimeMillis();
-                    ID=Long.toString(currentTimeMillis());
-                    Log.d("mensaje"," id = "+ID);
-                    Log.d("mensaje",""+Texto);
-                    Context context = getApplicationContext();
-                    CharSequence text = " Reclamo enviado!";
-                    int duration = Toast.LENGTH_SHORT;
+                   if(VerificarLargoMensaje(Texto)) {
+                       //long dat= currentTimeMillis();
+                       ID = Long.toString(currentTimeMillis());
+                       Log.d("mensaje", " id = " + ID);
+                       Log.d("mensaje", "" + Texto);
+                       Context context = getApplicationContext();
+                       CharSequence text = " Reclamo enviado!";
+                       int duration = Toast.LENGTH_SHORT;
 
-                    Toast toast = Toast.makeText(context, text, duration);
-                    toast.show();
+                       Toast toast = Toast.makeText(context, text, duration);
+                       toast.show();
 
-                    new Especifico.ReclamoJ().execute();
+                       new Especifico.ReclamoJ().execute();
+                   }
+                    else{ // el mensaje exedio el numero de caracteres permitido
+                       Context context = getApplicationContext();
+                       CharSequence text = " Mensaje demasiado largo (max 300 caracteres)!";
+                       int duration = Toast.LENGTH_SHORT;
+                       Toast toast = Toast.makeText(context, text, duration);
+                       toast.show();
+                   }
 
                 }
              else{
@@ -101,6 +110,12 @@ public class Especifico extends Activity {
             return true;
     }
 
+    public static boolean VerificarLargoMensaje(String mensaje){
+        if (mensaje.length()<299)  // el limite son 300 caracteres
+            return true;
+        else
+            return false;
+    }
     class ReclamoJ extends AsyncTask<String, String, String> {
         protected void onPreExecute() {
 
