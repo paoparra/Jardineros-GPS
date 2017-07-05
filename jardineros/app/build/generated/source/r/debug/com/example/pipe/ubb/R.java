@@ -3031,13 +3031,14 @@ containing a value of this type.
         public static final int design_ic_visibility=0x7f020057;
         public static final int design_snackbar_background=0x7f020058;
         public static final int gardener=0x7f020059;
-        public static final int icono_activity_ubb=0x7f02005a;
-        public static final int input_text_redondo=0x7f02005b;
-        public static final int llave=0x7f02005c;
-        public static final int logo=0x7f02005d;
-        public static final int navigation_empty_icon=0x7f02005e;
-        public static final int notification_template_icon_bg=0x7f020060;
-        public static final int registro=0x7f02005f;
+        public static final int icon=0x7f02005a;
+        public static final int icono_activity_ubb=0x7f02005b;
+        public static final int input_text_redondo=0x7f02005c;
+        public static final int llave=0x7f02005d;
+        public static final int logo=0x7f02005e;
+        public static final int navigation_empty_icon=0x7f02005f;
+        public static final int notification_template_icon_bg=0x7f020061;
+        public static final int registro=0x7f020060;
     }
     public static final class id {
         public static final int Hora=0x7f0c0081;

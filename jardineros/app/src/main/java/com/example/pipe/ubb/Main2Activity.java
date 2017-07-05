@@ -36,7 +36,7 @@ public class Main2Activity extends Activity {
     private Button btnSubmit;
     String resultado;
     String Jardinero;
-    String Usuario="Prueba@gmail.com";
+    String Usuario;
     String nota;
     String ID="";
     String  LOGIN_URL="http://34.193.208.83/jardinero/calificar.php";

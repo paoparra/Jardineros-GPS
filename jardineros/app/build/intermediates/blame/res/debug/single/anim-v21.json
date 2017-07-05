@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\a696872f601a5b71c90f3e4d0a515e9e6c647ee3\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\a696872f601a5b71c90f3e4d0a515e9e6c647ee3\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\Paola Alejandra\\.android\\build-cache\\b9a1b662119c28d9c71c527baf239deb52bbde6c\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\a696872f601a5b71c90f3e4d0a515e9e6c647ee3\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
     }
 ]

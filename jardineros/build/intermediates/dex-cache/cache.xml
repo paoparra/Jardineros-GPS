@@ -2,40 +2,229 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\a696872f601a5b71c90f3e4d0a515e9e6c647ee3\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ebc8f7034abba2109b5458727ac09fa79f128132\classes.dex" />
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\classes_83a49df724d10abecb10ec78fb66022c3266a6ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\classes_0fa492f9cd7eeec151d5cf4bea3e79a5fb0335ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\d04b60fc55b7e74f0bb233215b12726eabd92de0\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_207b3bf2cb9d20dbe13be94dd7f3e5a2e4422194.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\5725f85fa57573736cb95449c9d7f798a94122b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\classes_b68d997053c564ab3c6c7b23f5aa366907989f44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\03aca1988c3af637d9d6bae634120e592d005f70\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\classes_c481f6b77d4e7b22759e6489ae6598f047ef2756.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\e9f82826222600d7a7c4fb0b8f04e59038a1672a\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_a23f03918f8e77518a2196b97aaebfa439d936ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\36dac989764be8369a86aeae0af04a0a77c65160\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_b1787b2bc42f4675ea632dee347949872734e846.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\5725f85fa57573736cb95449c9d7f798a94122b9\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e9535adedd02211abb6762dbf2dce6745e52e8a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\80dba544dca3e5a3ce3b4eaa78e648d2dd99e695\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\classes_93c54ae0b20cbe8b55c35d525b7df08553a72ad8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\38ab76783c738207b2ae8b7a1c93161b27582d4f\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_ea4e76fb2575efb4dfc27574687087f2053c98b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\38ab76783c738207b2ae8b7a1c93161b27582d4f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\classes_36a3a5071bf7fcdbe57e2e1eec0d505b25f95192.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_5d0c7fda7872656fda281bc353f86d451d9603ce.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c522fa5eea0facbf95666724edb03978dc74fe37">
-        <dex dex="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7d07d19e0b2a6d8427a241f5534bdcff228e9edf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\libs\httpclient-4.0.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fcacc35075d9c3114da4c4122b42d78786135c90">
-        <dex dex="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.0.3_df6f8cda0a5f4b9cbdf29779349bec124f1bdd85\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\libs\apache-httpcomponents-httpcore.jar"
+        jar="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\libs\apache-httpcomponents-httpcore.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="33fc26c02f8043ab0ede19eadc8c9885386b255c">
-        <dex dex="C:\Users\Paola Alejandra\AndroidStudioProjects\jardineros\jardineros\app\build\intermediates\transforms\dex\debug\folders\1000\2\apache-httpcomponents-httpcore_781fbdc27afced165706765441a767ec42f2631f\classes.dex" />
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\transforms\dex\debug\folders\1000\2\apache-httpcomponents-httpcore_b32ef3460f3e56944b633c5d15162c0d15cb4da1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\e9f82826222600d7a7c4fb0b8f04e59038a1672a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\classes_c2b430b87a2a094b3d2da7323ddf924990574bc6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\libs\httpclient-4.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcacc35075d9c3114da4c4122b42d78786135c90">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.0.3_203bf9ff60999141bf95feb228da09379a54cb9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\3c47b6124c77891a9401fef1ac1bb838660fdf54\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\classes_ca57f2303bfee6b2d463c0a49acbe4be39c33993.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f230cd1051c75ee0ccd41bdf79a1d55eb6711fd9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\libs\apache-httpcomponents-httpcore.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="33fc26c02f8043ab0ede19eadc8c9885386b255c">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\apache-httpcomponents-httpcore_b32ef3460f3e56944b633c5d15162c0d15cb4da1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="474776738dc5b0d1494beb7738baaf9513666e77">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e95453d391e56a37f6b52bc1b7d317563d08c7ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\bc3baa531a16ad7d7c492a395426a8281897ff7b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\classes_0a8daaeb6535d728fe3f9998ab54498598e69fe1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\36dac989764be8369a86aeae0af04a0a77c65160\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\classes_fcd47f9ec19a077cac330b686dfba77f1ef1665e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\6bbc4c7722172bd1a24aafce5f48e4994306d6e8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\classes_f3b4b4270b293dc2d53da5090a4fb16a1c67b6cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_1d0f15781a7f254b9ef5967c959dacd19f750cdb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\.android\build-cache\d04b60fc55b7e74f0bb233215b12726eabd92de0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\classes_37ccb708ae1252efa8223c98b1ca32b2b01ed8a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\libs\httpclient-4.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcacc35075d9c3114da4c4122b42d78786135c90">
+        <dex dex="C:\Users\Alexi\Documents\GPS\proyecto\Jardineros-GPS\jardineros\app\build\intermediates\pre-dexed\debug\httpclient-4.0.3_203bf9ff60999141bf95feb228da09379a54cb9b.jar" />
     </item>
 
 </items>

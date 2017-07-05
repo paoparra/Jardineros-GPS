@@ -1,7 +1,7 @@
-#Mon Jul 03 23:59:20 GMT-04:00 2017
-base.0=C\:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ebc8f7034abba2109b5458727ac09fa79f128132
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7d07d19e0b2a6d8427a241f5534bdcff228e9edf\\classes.dex
-base.1=C\:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7d07d19e0b2a6d8427a241f5534bdcff228e9edf
-file.0=C\:\\Users\\Paola Alejandra\\AndroidStudioProjects\\jardineros\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ebc8f7034abba2109b5458727ac09fa79f128132\\classes.dex
+#Wed Jul 05 01:09:25 CLT 2017
+base.0=C\:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e95453d391e56a37f6b52bc1b7d317563d08c7ce
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f230cd1051c75ee0ccd41bdf79a1d55eb6711fd9\\classes.dex
+base.1=C\:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f230cd1051c75ee0ccd41bdf79a1d55eb6711fd9
+file.0=C\:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e95453d391e56a37f6b52bc1b7d317563d08c7ce\\classes.dex
