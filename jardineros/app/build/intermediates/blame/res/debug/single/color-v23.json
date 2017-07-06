@@ -4,12 +4,20 @@
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
         "merged": "C:\\Users\\Pipe\\Desktop\\android4\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
     },
     {
         "merged": "C:\\Users\\Pipe\\Desktop\\android4\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\Pipe\\Desktop\\android4\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
@@ -20,6 +28,14 @@
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\b683a82e57f2b5a10b236a105e7ee717072bf8cd\\output\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
         "merged": "C:\\Users\\Pipe\\Desktop\\android4\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\color-v23\\abc_tint_switch_track.xml"
     },
@@ -28,8 +44,24 @@
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Pipe\\Desktop\\android4\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\a696872f601a5b71c90f3e4d0a515e9e6c647ee3\\output\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
         "merged": "C:\\Users\\Pipe\\Desktop\\android4\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
@@ -38,5 +70,13 @@
     {
         "merged": "C:\\Users\\Pipe\\Desktop\\android4\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     }
 ]

@@ -20,11 +20,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import static android.os.Build.ID;
-import static com.example.pipe.ubb.R.id.btnSubmit;
-import static com.example.pipe.ubb.R.id.listview;
-import static com.example.pipe.ubb.R.id.reclamos;
-import static java.lang.System.currentTimeMillis;
 
 public class Ver_Especifico extends AppCompatActivity {
     ArrayList reclamos=new ArrayList();

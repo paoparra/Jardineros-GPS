@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Pipe\\Desktop\\android4\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\drawable-v23\\abc_control_background_material.xml"
     }
