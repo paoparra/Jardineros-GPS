@@ -112,7 +112,7 @@ public class JardinerosLista extends Activity {
 
             listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
-                public void onItemClick(AdapterView adapterView, View view, int position, long l) {
+                public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                     //Toast.makeText(getApplicationContext(), "Click ListItem Number " + position, Toast.LENGTH_LONG).show();
                     // view.setBackgroundColor(Color.LTGRAY);  //pone el color cuando selecciono
                     String jardinero=listview.getAdapter().getItem(position).toString();
@@ -145,6 +145,7 @@ public class JardinerosLista extends Activity {
 
                     //Iniciamos la nueva actividad
                     startActivity(intent);
+                   // Toast.makeText(getApplicationContext(), "presiono " + position, Toast.LENGTH_SHORT).show();
                 }
             });
 
@@ -173,7 +174,7 @@ public class JardinerosLista extends Activity {
 
             @Override
             public Object getItem(int position) {
-                return null;
+                return titulos.get(position);
             }
 
             @Override
@@ -207,7 +208,7 @@ public class JardinerosLista extends Activity {
             }
         }
 
-    private class StableArrayAdapter extends ArrayAdapter<String> {
+    /*private class StableArrayAdapter extends ArrayAdapter<String> {
 
             HashMap<String, Integer> mIdMap = new HashMap<String, Integer>();
 
@@ -230,7 +231,7 @@ public class JardinerosLista extends Activity {
                 return true;
             }
 
-        }
+        }*/
 
 
     }
