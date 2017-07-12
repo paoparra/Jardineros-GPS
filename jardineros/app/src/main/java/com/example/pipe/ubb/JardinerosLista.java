@@ -36,8 +36,8 @@ public class JardinerosLista extends Activity {
     ArrayList<String>  subtitulos= new ArrayList<>();
     ArrayList<String> notas = new ArrayList<>();
 
-    int[] imagenes = {R.drawable.icon, R.drawable.icon, R.drawable.icon, R.drawable.icon};
-
+    int[] img = {R.drawable.h1, R.drawable.m1, R.drawable.h2, R.drawable.m2, R.drawable.h3, R.drawable.m3, R.drawable.h4, R.drawable.m4, R.drawable.m5};
+    ArrayList<Integer> imagenes = new ArrayList<Integer>();
 
 
         @Override
@@ -45,6 +45,12 @@ public class JardinerosLista extends Activity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_jardineros_lista);
             listview = (ListView) findViewById(R.id.listview);
+
+            imagenes.add(R.drawable.h1);
+            imagenes.add(R.drawable.h3);
+            imagenes.add(R.drawable.m3);
+            imagenes.add(R.drawable.m2);
+
 
 
             ArrayList lista = (ArrayList) getIntent().getSerializableExtra("micorreo");
@@ -59,61 +65,19 @@ public class JardinerosLista extends Activity {
             //ArrayList<Category> category = new ArrayList<Category>();
             //AdapterCategory adapter = new AdapterCategory(this, category);
             final ArrayList<String> list = new ArrayList<String>();
+            int k=0;
             for (int i = 0; i < lista.size(); ++i) {
                 list.add(lista.get(i).toString());
                 subtitulos.add(listaN.get(i).toString());
                 titulos.add(lista.get(i).toString());
-                notas.add(listaC.get(i).toString());
+                notas.add("Evaluacion : "+ listaC.get(i).toString());
+                //imagenes.add(img[(int) (Math.random() * 8)]);
             }
-            /*
-            titulos.add("Rudyard Fuster");
-            titulos.add("Alexis Vizama");
-            titulos.add("Paola Parra1");
-            titulos.add("Paola Parra2");*/
+
             adapter = new ListViewAdapter(this, titulos, subtitulos, notas, imagenes);
 
             //final StableArrayAdapter adapter = new StableArrayAdapter(this,android.R.layout.simple_list_item_1, list);
             listview.setAdapter(adapter);
-
-            /*listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view,
-                                        int position, long id) {
-                    //Toast.makeText(getApplicationContext(), "Click ListItem Number " + position, Toast.LENGTH_LONG).show();
-                   // view.setBackgroundColor(Color.LTGRAY);  //pone el color cuando selecciono
-                    String jardinero=listview.getAdapter().getItem(position).toString();
-
-                    Intent intent;
-
-                    if(eleccion.equals("reclamar")==true){
-                        intent = new Intent(JardinerosLista.this, Especifico.class);
-                    }
-                    else if (eleccion.equals("solicitar")==true){
-                        intent = new Intent(JardinerosLista.this, Solicitar.class);
-                    }
-                    else if (eleccion.equals("ListaReclamos")==true){
-                        intent = new Intent(JardinerosLista.this, Ver_Especifico.class);
-                    }
-                    else{ //para en caso de agun erroe tambien enviarlo a "evaluar", y que no caiga el sistema
-                        intent = new Intent(JardinerosLista.this, Main2Activity.class);
-                    }
-
-
-                    Log.d("mensaje","hola: "+listview.getAdapter().getItem(position)); // muestra el seleccionado
-
-                    //Creamos la información a pasar entre actividades
-                    Bundle b = new Bundle();
-                    b.putString("NOMBRE", listview.getAdapter().getItem(position).toString());
-                    b.putString("usuario", usuario);
-                    b.putString("jardinero", jardinero);
-                    //Añadimos la información al intent
-                    intent.putExtras(b);
-
-                    //Iniciamos la nueva actividad
-                    startActivity(intent);
-
-                }
-            });*/
 
             listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
@@ -163,10 +127,10 @@ public class JardinerosLista extends Activity {
             ArrayList<String> titulos;
             ArrayList<String> subtitulos;
             ArrayList<String> notas;
-            int[] imagenes;
+            ArrayList<Integer> imagenes;
             LayoutInflater inflater;
 
-            public ListViewAdapter(Context context, ArrayList<String> titulos, ArrayList<String> subtitulos, ArrayList<String> notas, int[] imagenes) {
+            public ListViewAdapter(Context context, ArrayList<String> titulos, ArrayList<String> subtitulos, ArrayList<String> notas, ArrayList<Integer> imagenes) {
                 this.context = context;
                 this.titulos = titulos;
                 this.subtitulos=subtitulos;
@@ -213,36 +177,13 @@ public class JardinerosLista extends Activity {
                 txtTitle.setText(titulos.get(position));
                 txtSubtitle.setText(subtitulos.get(position));
                 txtNote.setText(notas.get(position));
-                imgImg.setImageResource(imagenes[position]);
+                imgImg.setImageResource(imagenes.get(position));
 
                 return itemView;
             }
         }
 
-    /*private class StableArrayAdapter extends ArrayAdapter<String> {
 
-            HashMap<String, Integer> mIdMap = new HashMap<String, Integer>();
-
-            public StableArrayAdapter(Context context, int textViewResourceId,
-                                      List<String> objects) {
-                super(context, textViewResourceId, objects);
-                for (int i = 0; i < objects.size(); ++i) {
-                    mIdMap.put(objects.get(i), i);
-                }
-            }
-
-            @Override
-            public long getItemId(int position) {
-                String item = getItem(position);
-                return mIdMap.get(item);
-            }
-
-            @Override
-            public boolean hasStableIds() {
-                return true;
-            }
-
-        }*/
 
 
     }

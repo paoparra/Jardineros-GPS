@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:background="#D4E157"
+    android:background="#9DC0B5"
     android:orientation="vertical"
     android:weightSum="1">
 
@@ -38,10 +38,11 @@
 
                     <ImageView
                         android:id="@+id/imagen_jardinero"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/icon" />
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -54,8 +55,8 @@
                         android:id="@+id/titulo_jardinero"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_marginLeft="0dp"
+                        android:textAppearance="?android:attr/textAppearanceListItem"
                         android:textColor="#ff000000" />
 
                     <TextView
@@ -63,7 +64,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textAppearance="?android:attr/textAppearanceListItem"
                         android:textColor="#ff868686" />
 
                     <TextView
@@ -71,7 +72,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
                         android:textColor="#ff868686" />
 
                 </LinearLayout>
