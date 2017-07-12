@@ -10,27 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b2324c-9db8-43cd-a5ab-0e81c1f870fe" name="Default" comment="- Completamente trabajo con datos dinamicos de la base de datos &#10;- Mejoras en el codigo">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/pipe/ubb/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/pipe/ubb/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_jardineros_lista.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_jardineros_lista.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/JardinerosLista.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/JardinerosLista.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/panel_usuario.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/panel_usuario.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/post_border_background.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/post_border_background.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/post_border_style.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/post_border_style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/jardineros_listrow.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/jardineros_listrow.xml" />
     </list>
     <ignored path="jardineros.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,10 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JardinerosLista.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JardinerosLista.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/JardinerosLista.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1922">
+            <state relative-caret-position="2483">
               <caret line="183" column="23" selection-start-line="182" selection-start-column="12" selection-end-line="185" selection-end-column="0" />
               <folding>
                 <element signature="e#7783#7784#0" expanded="true" />
@@ -84,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main2Activity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main2Activity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/Main2Activity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-34">
@@ -2720,7 +2700,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499832877536</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- Completamente trabajo con datos dinamicos de la base de datos &#10;- Mejoras en el codigo">
+      <created>1499832964539</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1499832964539</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -3213,14 +3200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/Main2Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="41" column="53" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/panel_usuario.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3280,7 +3259,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/JardinerosLista.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1922">
+        <state relative-caret-position="2483">
           <caret line="183" column="23" selection-start-line="182" selection-start-column="12" selection-end-line="185" selection-end-column="0" />
           <folding>
             <element signature="e#7783#7784#0" expanded="true" />
@@ -3293,6 +3272,14 @@
             <marker date="1499788340981" expanded="false" signature="10137:10156" ph=" { " />
             <marker date="1499788340981" expanded="false" signature="10168:10182" ph=" }" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/Main2Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="41" column="53" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
