@@ -9,7 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b2324c-9db8-43cd-a5ab-0e81c1f870fe" name="Default" comment="- Completamente trabajo con datos dinamicos de la base de datos &#10;- Mejoras en el codigo">
+    <list default="true" id="56b2324c-9db8-43cd-a5ab-0e81c1f870fe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jardineros.iws" />
@@ -74,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modificar.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="modificar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/modificar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -84,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="panel_usuario.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="panel_usuario.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/panel_usuario.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
@@ -2714,7 +2714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499833027297</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- Completamente trabajo con datos dinamicos de la base de datos &#10;- Mejoras en el codigo">
+      <created>1499833066450</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1499833066450</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -3248,14 +3255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/panel_usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="152" column="32" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/JardinerosLista.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2483">
@@ -3286,6 +3285,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pipe/ubb/panel_usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="152" column="32" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
           <folding />
         </state>
       </provider>
