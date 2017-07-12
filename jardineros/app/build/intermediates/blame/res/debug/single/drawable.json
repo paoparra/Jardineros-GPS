@@ -148,12 +148,12 @@
         "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",

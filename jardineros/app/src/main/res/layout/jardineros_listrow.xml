@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:background="#9DC0B5"
+    android:background="#D4E157"
     android:orientation="vertical"
     android:weightSum="1">
 
@@ -55,7 +55,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:text="Plaza 25 de Mayo"
                         android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textColor="#ff000000" />
 
@@ -64,7 +63,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:text="Es la plaza principal de la ciudad de San Juan y es donde se encuentra el kilómetro 0 de la provincia."
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ff868686" />
+
+                    <TextView
+                        android:id="@+id/nota_jardinero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:textColor="#ff868686" />
 

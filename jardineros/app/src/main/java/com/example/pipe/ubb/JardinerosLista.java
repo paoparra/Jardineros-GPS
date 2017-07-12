@@ -33,9 +33,8 @@ public class JardinerosLista extends Activity {
     ListView listview;
     ListViewAdapter adapter;
     ArrayList<String>  titulos= new ArrayList<>();
-
-
     ArrayList<String>  subtitulos= new ArrayList<>();
+    ArrayList<String> notas = new ArrayList<>();
 
     int[] imagenes = {R.drawable.icon, R.drawable.icon, R.drawable.icon, R.drawable.icon};
 
@@ -49,6 +48,9 @@ public class JardinerosLista extends Activity {
 
 
             ArrayList lista = (ArrayList) getIntent().getSerializableExtra("micorreo");
+            ArrayList listaN = (ArrayList) getIntent().getSerializableExtra("misnombres");
+            ArrayList listaC = (ArrayList) getIntent().getSerializableExtra("misnotas");
+
             final String eleccion= (String)getIntent().getSerializableExtra("op");
             final String usuario= (String)getIntent().getSerializableExtra("usuario");
 
@@ -59,13 +61,16 @@ public class JardinerosLista extends Activity {
             final ArrayList<String> list = new ArrayList<String>();
             for (int i = 0; i < lista.size(); ++i) {
                 list.add(lista.get(i).toString());
-                subtitulos.add(lista.get(i).toString());
+                subtitulos.add(listaN.get(i).toString());
+                titulos.add(lista.get(i).toString());
+                notas.add(listaC.get(i).toString());
             }
+            /*
             titulos.add("Rudyard Fuster");
             titulos.add("Alexis Vizama");
             titulos.add("Paola Parra1");
-            titulos.add("Paola Parra2");
-            adapter = new ListViewAdapter(this, titulos, subtitulos, imagenes);
+            titulos.add("Paola Parra2");*/
+            adapter = new ListViewAdapter(this, titulos, subtitulos, notas, imagenes);
 
             //final StableArrayAdapter adapter = new StableArrayAdapter(this,android.R.layout.simple_list_item_1, list);
             listview.setAdapter(adapter);
@@ -157,13 +162,15 @@ public class JardinerosLista extends Activity {
             Context context;
             ArrayList<String> titulos;
             ArrayList<String> subtitulos;
+            ArrayList<String> notas;
             int[] imagenes;
             LayoutInflater inflater;
 
-            public ListViewAdapter(Context context, ArrayList<String> titulos, ArrayList<String> subtitulos, int[] imagenes) {
+            public ListViewAdapter(Context context, ArrayList<String> titulos, ArrayList<String> subtitulos, ArrayList<String> notas, int[] imagenes) {
                 this.context = context;
                 this.titulos = titulos;
                 this.subtitulos=subtitulos;
+                this.notas = notas;
                 this.imagenes = imagenes;
             }
 
@@ -187,6 +194,7 @@ public class JardinerosLista extends Activity {
                 // Declare Variables
                 TextView txtTitle;
                 TextView txtSubtitle;
+                TextView txtNote;
                 ImageView imgImg;
 
                 //http://developer.android.com/intl/es/reference/android/view/LayoutInflater.html
@@ -197,11 +205,14 @@ public class JardinerosLista extends Activity {
                 // Locate the TextViews in listview_item.xml
                 txtTitle = (TextView) itemView.findViewById(R.id.titulo_jardinero);
                 txtSubtitle = (TextView) itemView.findViewById(R.id.subtitulo_jardinero);
+                txtNote = (TextView) itemView.findViewById(R.id.nota_jardinero);
+
                 imgImg = (ImageView) itemView.findViewById(R.id.imagen_jardinero);
 
                 // Capture position and set to the TextViews
                 txtTitle.setText(titulos.get(position));
                 txtSubtitle.setText(subtitulos.get(position));
+                txtNote.setText(notas.get(position));
                 imgImg.setImageResource(imagenes[position]);
 
                 return itemView;

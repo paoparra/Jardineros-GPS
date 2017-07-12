@@ -26,9 +26,13 @@ import static com.example.pipe.ubb.R.id.csesion;
 
 public class panel_usuario extends AppCompatActivity implements View.OnClickListener  {
     ArrayList correo=new ArrayList();
+    ArrayList nombres=new ArrayList();
+    ArrayList notas=new ArrayList();
     String id_string,clave_string;
     String resultado;
     String parametro;
+    String nota="";
+    String nombre="";
     TextView informacion;
     Button modificar;
     private Button Puntuar;
@@ -37,7 +41,7 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
     private Button Solicitar;
     String opcion="";
 
-    String  LOGIN_URL3="http://34.193.208.83/jardinero/ver.php";
+    String  LOGIN_URL3="http://34.193.208.83/jardinero/ver_prueba.php";
     JSONParser jsonParser = new JSONParser();
 
     Button csesion;
@@ -112,6 +116,8 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
         protected String doInBackground(String... params) {
             List parametros = new ArrayList();
             parametros.add(new BasicNameValuePair("correo",parametro));
+            parametros.add(new BasicNameValuePair("Nombre",nombre));
+            parametros.add(new BasicNameValuePair("Calificacion",nota));
             resultado = jsonParser.makeHttpRequest(LOGIN_URL3, "POST",
                     parametros).toString();
             JSONObject object = null;
@@ -119,8 +125,13 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
                 object = new JSONObject(resultado);
                 JSONArray json_array = object.optJSONArray("respuesta");
                 correo.clear();
+                nombres.clear();
+                notas.clear();
                 for (int i = 0; i < json_array.length(); i++) {
                     correo.add(json_array.getJSONObject(i).getString("correo"));
+                    nombres.add(json_array.getJSONObject(i).getString("Nombre"));
+                    notas.add(json_array.getJSONObject(i).getString("Calificacion"));
+
                 }
 
             } catch (JSONException e) {
@@ -138,6 +149,8 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
             }
             Intent c = new Intent(panel_usuario.this,JardinerosLista.class);
             c.putExtra("micorreo", correo);
+            c.putExtra("misnombres", nombres);
+            c.putExtra("misnotas", notas);
             c.putExtra("op",opcion);
             c.putExtra("usuario",id_string);
             startActivity(c);

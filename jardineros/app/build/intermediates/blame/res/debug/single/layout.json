@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Alexi\\.android\\build-cache\\ba54f53a36bbf108a25c070eddfcd3cc717cd8a2\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Pipe\\Desktop\\android4\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registro.xml",
         "source": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\layout\\activity_registro.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pipe\\Desktop\\android4\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\Alexi\\.android\\build-cache\\a696872f601a5b71c90f3e4d0a515e9e6c647ee3\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
         "merged": "C:\\Users\\Pipe\\Desktop\\android4\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\Pipe\\.android\\build-cache\\742807d2f5faa476d0f9916735ca305d4fc1e4d5\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Alexi\\.android\\build-cache\\a696872f601a5b71c90f3e4d0a515e9e6c647ee3\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "C:\\Users\\Alexi\\Documents\\GPS\\proyecto\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
