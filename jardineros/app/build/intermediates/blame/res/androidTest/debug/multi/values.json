@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Pipe\\Desktop\\android4\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Pipe\\.android\\build-cache\\4c59ccecbc583bb491577aba4213e99f18e1cfb9\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Rudyard\\.android\\build-cache\\302edeba1b63b461d778a8624c0dbc2295f489f8\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
