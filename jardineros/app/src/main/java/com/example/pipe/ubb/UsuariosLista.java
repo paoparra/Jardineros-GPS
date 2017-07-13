@@ -56,20 +56,20 @@ public class UsuariosLista extends AppCompatActivity {
                                     int position, long id) {
                 //Toast.makeText(getApplicationContext(), "Click ListItem Number " + position, Toast.LENGTH_LONG).show();
                 // view.setBackgroundColor(Color.LTGRAY);  //pone el color cuando selecciono
-                String solicitante=listview.getAdapter().getItem(position).toString();
+                String solicitante = listview.getAdapter().getItem(position).toString();
 
                 Intent intent;
 
-                if(eleccion.equals("Solicitud")==true){
+                if (eleccion.equals("Solicitud") == true) {
                     intent = new Intent(UsuariosLista.this, Decision.class);
-                }
 
+/*
                 else{ //para en caso de agun erroe tambien enviarlo a su "Agenda", y que no caiga el sistema
                     intent = new Intent(UsuariosLista.this, Agenda_Lista.class);
-                }
+               }
 
-
-                Log.d("mensaje","hola: "+listview.getAdapter().getItem(position)); // muestra el seleccionado
+*/
+                Log.d("mensaje", "hola: " + listview.getAdapter().getItem(position)); // muestra el seleccionado
 
                 //Creamos la información a pasar entre actividades
                 Bundle b = new Bundle();
@@ -84,7 +84,7 @@ public class UsuariosLista extends AppCompatActivity {
 
                 //Iniciamos la nueva actividad
                 startActivity(intent);
-
+            }
             }
         });
 

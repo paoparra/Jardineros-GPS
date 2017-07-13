@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jul 13 17:05:10 GMT-04:00 2017
+#Thu Jul 13 17:28:00 GMT-04:00 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\select_dialog_singlechoice_material.xml
 14.set=ANDROID_RESOURCE
