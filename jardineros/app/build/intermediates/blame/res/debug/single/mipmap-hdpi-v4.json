@@ -1,6 +1,11 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ubb_inicio.jpg",
         "source": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\mipmap-hdpi\\ubb_inicio.jpg"
+=======
+        "merged": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ubb_inicio.jpg",
+        "source": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\mipmap-hdpi\\ubb_inicio.jpg"
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
     }
 ]

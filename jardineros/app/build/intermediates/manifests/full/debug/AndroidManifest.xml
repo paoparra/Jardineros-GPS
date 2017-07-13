@@ -41,9 +41,12 @@
         <activity android:name="com.example.pipe.ubb.login_jardinero" />
         <activity android:name="com.example.pipe.ubb.panel_jardinero" />
         <activity android:name="com.example.pipe.ubb.modificar_jardinero" />
+<<<<<<< HEAD
         <activity android:name="com.example.pipe.ubb.UsuariosLista" />
         <activity android:name="com.example.pipe.ubb.Decision" />
         <activity android:name="com.example.pipe.ubb.Agenda_Lista" />
+=======
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
     </application>
 
 </manifest>

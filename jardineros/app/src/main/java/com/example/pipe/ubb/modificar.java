@@ -76,6 +76,9 @@ public class modificar extends AppCompatActivity implements View.OnClickListener
     public static boolean verifyNumeros(String digitos){
         return digitos.matches("[-+]?\\d*\\.?\\d+");
     }
+    public static boolean maximoLetrasValido(String campo,int digitosEsperados){
+        return campo.length()<=digitosEsperados;
+    }
 
 
     public void onClick(View v){
@@ -83,26 +86,59 @@ public class modificar extends AppCompatActivity implements View.OnClickListener
                 case R.id.mclave:
                     nueva_clave_string=eclave1.getText().toString();
                     nueva_clave1_string=eclave2.getText().toString();
-                    if(validarClave(nueva_clave_string,nueva_clave1_string)) {
-                        new modificar.modificar_contrasenha().execute();  // ejecucion de asynctask
+
+                    if(maximoLetrasValido(nueva_clave_string,30) && maximoLetrasValido(nueva_clave1_string,30)){
+                        if(validarClave(nueva_clave_string,nueva_clave1_string)) {
+                            new modificar.modificar_contrasenha().execute();  // ejecucion de asynctask
+                        }
+                        else{
+                            textclave.setText("La contraseña no coincide con el segundo campo");
+                        }
                     }
                     else{
-                        textclave.setText("La contraseña no coincide con el segundo campo");
+                        textclave.setText("Se permiten hasta 30 caracteres");
                     }
+
+
 
                                     break;
 
                 case R.id.mnombre:
-                     nombre = enombre.getText().toString();
-                    new modificar.modificar_nombre().execute();
+                    nombre = enombre.getText().toString();
+                    int maximo_letras=40;
+                    if(maximoLetrasValido(nombre,maximo_letras)){
+                        new modificar.modificar_nombre().execute();
+                    }
+                    else{
+                        textNombre.setText("Se permiten hasta 40 caracteres");
+                    }
+
                                     break;
                 case R.id.mapellido:
                     apellido = eapellido.getText().toString();
-                    new modificar.modificar_apellido().execute();
+
+                    if(maximoLetrasValido(apellido,40)){
+                        new modificar.modificar_apellido().execute();
+                    }
+                    else{
+                        textApellido.setText("Se permiten hasta 40 caracteres");
+                    }
+
                                     break;
                 case R.id.mtelefono:
                     telefono = etelefono.getText().toString();
-                    new modificar.modificar_telefono().execute();
+                    if(verifyNumeros(telefono)) {
+                        if(telefonoValido(telefono)){
+                            new modificar.modificar_telefono().execute();
+                        }
+                        else{
+                            textTelefono.setText("El telefono debe tener 9 digitos");
+                        }
+
+                    }
+                    else{
+                        textTelefono.setText("El telefono debe contener numeros no letras");
+                    }
                                     break;
 
 

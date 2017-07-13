@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+=======
+        "outputFile": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
         "map": [
             {
                 "to": {
@@ -881,7 +885,18 @@
                     "endOffset": 6230
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\colors.xml"
+=======
+                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 157,
+                        "endColumn": 45,
+                        "endOffset": 198
+                    }
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                 }
             },
             {
@@ -893,7 +908,18 @@
                     "endOffset": 6277
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\colors.xml"
+=======
+                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 46,
+                        "endOffset": 99
+                    }
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                 }
             },
             {
@@ -905,7 +931,18 @@
                     "endOffset": 6328
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\colors.xml"
+=======
+                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 50,
+                        "endOffset": 151
+                    }
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                 }
             },
             {
@@ -2381,7 +2418,18 @@
                     "endOffset": 49882
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\dimens.xml"
+=======
+                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 90,
+                        "endColumn": 57,
+                        "endOffset": 143
+                    }
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                 }
             },
             {
@@ -2393,7 +2441,18 @@
                     "endOffset": 49938
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\dimens.xml"
+=======
+                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 149,
+                        "endColumn": 55,
+                        "endOffset": 200
+                    }
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                 }
             },
             {
@@ -2849,7 +2908,18 @@
                     "endOffset": 52330
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\dimens.xml"
+=======
+                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 41,
+                        "endOffset": 243
+                    }
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                 }
             },
             {
@@ -3569,7 +3639,18 @@
                     "endOffset": 56334
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\strings.xml"
+=======
+                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 51,
+                        "endOffset": 64
+                    }
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                 }
             },
             {
@@ -3641,7 +3722,18 @@
                     "endOffset": 56889
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\strings.xml"
+=======
+                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 70,
+                        "endColumn": 77,
+                        "endOffset": 143
+                    }
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                 }
             },
             {
@@ -3734,7 +3826,19 @@
                     "endOffset": 57856
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\styles.xml"
+=======
+                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 348
+                    }
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                 }
             },
             {
@@ -3746,7 +3850,18 @@
                     "endOffset": 57946
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\styles.xml"
+=======
+                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 512,
+                        "endColumn": 90,
+                        "endOffset": 598
+                    }
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                 }
             },
             {
@@ -3759,7 +3874,19 @@
                     "endOffset": 58096
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\styles.xml"
+=======
+                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 356,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 504
+                    }
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                 }
             },
             {
@@ -3771,7 +3898,18 @@
                     "endOffset": 58176
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\styles.xml"
+=======
+                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 606,
+                        "endColumn": 80,
+                        "endOffset": 682
+                    }
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                 }
             },
             {

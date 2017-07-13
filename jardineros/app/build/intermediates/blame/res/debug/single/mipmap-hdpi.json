@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icono_sala.png",
         "source": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\mipmap-hdpi\\icono_sala.png"
     },
@@ -14,5 +15,21 @@
     {
         "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+=======
+        "merged": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\icono_sala.png",
+        "source": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\mipmap-hdpi\\icono_sala.png"
+    },
+    {
+        "merged": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ingresar_edificio.png",
+        "source": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\mipmap-hdpi\\ingresar_edificio.png"
+    },
+    {
+        "merged": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ingresar_persona.png",
+        "source": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\mipmap-hdpi\\ingresar_persona.png"
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
     }
 ]

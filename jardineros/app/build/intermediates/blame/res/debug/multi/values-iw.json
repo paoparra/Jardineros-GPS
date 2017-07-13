@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
+=======
+        "outputFile": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
+>>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
         "map": [
             {
                 "to": {
