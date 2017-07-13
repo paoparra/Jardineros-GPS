@@ -102,7 +102,18 @@ public class modificar extends AppCompatActivity implements View.OnClickListener
                                     break;
                 case R.id.mtelefono:
                     telefono = etelefono.getText().toString();
-                    new modificar.modificar_telefono().execute();
+                    if(verifyNumeros(telefono)) {
+                        if(telefonoValido(telefono)){
+                            new modificar.modificar_telefono().execute();
+                        }
+                        else{
+                            textTelefono.setText("El telefono debe tener 9 digitos");
+                        }
+
+                    }
+                    else{
+                        textTelefono.setText("El telefono debe contener numeros no letras");
+                    }
                                     break;
 
 

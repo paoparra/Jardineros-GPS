@@ -38,6 +38,9 @@
         <activity android:name="com.example.pipe.ubb.panel_admin" />
         <activity android:name="com.example.pipe.ubb.mostrarUsuarios" />
         <activity android:name="com.example.pipe.ubb.mostrarJardineros" />
+        <activity android:name="com.example.pipe.ubb.login_jardinero" />
+        <activity android:name="com.example.pipe.ubb.panel_jardinero" />
+        <activity android:name="com.example.pipe.ubb.modificar_jardinero" />
     </application>
 
 </manifest>
