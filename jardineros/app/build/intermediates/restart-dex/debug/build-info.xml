@@ -2,34 +2,67 @@
 <instant-run
     abi="x86"
     api-level="24"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1499966436764"
+    timestamp="1499971037585"
     token="-8255351697553025970"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="4418" />
+        duration="937" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="393" />
+        duration="209" />
     <task
         name="verifier"
-        duration="76" />
+        duration="16" />
 
     <artifact
         location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1499965348720"
+        timestamp="1499971037585"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -67,14 +100,6 @@
         <artifact
             location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1499966436764"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Pipe\Desktop\android5\Jardineros-GPS\jardineros\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

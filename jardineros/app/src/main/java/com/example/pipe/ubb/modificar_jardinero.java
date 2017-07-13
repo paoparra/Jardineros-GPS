@@ -88,22 +88,43 @@ public class modificar_jardinero extends AppCompatActivity implements View.OnCli
                 case R.id.mclave:
                     nueva_clave_string=eclave1.getText().toString();
                     nueva_clave1_string=eclave2.getText().toString();
-                    if(validarClave(nueva_clave_string,nueva_clave1_string)) {
-                        new modificar_jardinero.modificar_contrasenha().execute();  // ejecucion de asynctask
+
+
+                    if(maximoLetrasValido(nueva_clave_string,30) && maximoLetrasValido(nueva_clave1_string,30)){
+                        if(validarClave(nueva_clave_string,nueva_clave1_string)) {
+                            new modificar_jardinero.modificar_contrasenha().execute();  // ejecucion de asynctask
+                        }
+                        else{
+                            textclave.setText("La contraseña no coincide con el segundo campo");
+                        }
                     }
                     else{
-                        textclave.setText("La contraseña no coincide con el segundo campo");
+                        textclave.setText("Se permiten hasta 30 caracteres");
                     }
 
-                                    break;
+
+                    break;
 
                 case R.id.mnombre:
                      nombre = enombre.getText().toString();
-                    new modificar_jardinero.modificar_nombre().execute();
+
+                    if(maximoLetrasValido(nombre,40)){
+                        new modificar_jardinero.modificar_nombre().execute();
+                    }
+                    else{
+                        textNombre.setText("Se permiten hasta 40 caracteres");
+                    }
+
                                     break;
                 case R.id.mapellido:
                     apellido = eapellido.getText().toString();
-                    new modificar_jardinero.modificar_apellido().execute();
+                    if(maximoLetrasValido(apellido,40)){
+                        new modificar_jardinero.modificar_apellido().execute();
+                    }
+                    else{
+                        textApellido.setText("Se permiten hasta 40 caracteres");
+                    }
+
                                     break;
                 case R.id.mtelefono:
                     telefono = etelefono.getText().toString();
