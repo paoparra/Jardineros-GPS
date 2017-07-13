@@ -1,10 +1,6 @@
 [
     {
-<<<<<<< HEAD
         "outputFile": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-=======
-        "outputFile": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
->>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
         "map": [
             {
                 "to": {
@@ -15,11 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
-=======
-                    "file": "C:\\Users\\Pipe\\Desktop\\android5\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
->>>>>>> 18fe6de56d696ded11bd069635e564d59bc42de0
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

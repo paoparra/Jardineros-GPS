@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#9DC0B5">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Bienvenido a JardinerosApp, registrece para poder acceder al montón de beneficios que lo esperan"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.11" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="7dp"
+        android:ems="15"
+        android:fontFamily="serif"
+        android:hint="Ingrese su Nombre"
+        android:padding="5dp"
+        android:background="@drawable/input_text_redondo"
+        android:inputType="none"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/editTextApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:background="@drawable/input_text_redondo"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="7dp"
+        android:ems="15"
+        android:fontFamily="serif"
+        android:hint="Ingrese su Apellido"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/editTextCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:background="@drawable/input_text_redondo"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="7dp"
+        android:ems="15"
+        android:fontFamily="serif"
+        android:hint="Ingrese su Correo"
+        android:inputType="textEmailAddress"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/editTextTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:background="@drawable/input_text_redondo"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="7dp"
+        android:ems="15"
+        android:fontFamily="serif"
+        android:maxLength="9"
+        android:hint="Ingrese su Teléfono (9 dígitos)"
+        android:inputType="number"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/editTextContrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:background="@drawable/input_text_redondo"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="7dp"
+        android:ems="15"
+        android:fontFamily="serif"
+        android:hint="Ingrese Contraseña"
+        android:inputType="textPassword"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/editTextContrasena2"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:background="@drawable/input_text_redondo"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="7dp"
+        android:ems="15"
+        android:fontFamily="serif"
+        android:hint="Repita contraseña"
+        android:inputType="textPassword"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/btnEnviarRegistro"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/boton_redondo"
+        android:fontFamily="serif"
+        android:text="Enviar Registro"
+        android:textAlignment="center"
+        android:textColor="#01341D" />
+
+    <TextView
+        android:id="@+id/textViewMensaje"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.11" />
+
+</LinearLayout>

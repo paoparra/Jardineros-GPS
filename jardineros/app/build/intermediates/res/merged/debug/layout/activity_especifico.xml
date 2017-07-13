@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#9DC0B5">
+
+    <TextView
+        android:id="@+id/lblRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:textColor="#002117"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/gardener"
+        android:id="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/Mensaje"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:hint="Escriba su reclamo" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/boton_redondo"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:textColor="#002117"
+        android:text="Enviar reclamo" />
+</LinearLayout>
+
