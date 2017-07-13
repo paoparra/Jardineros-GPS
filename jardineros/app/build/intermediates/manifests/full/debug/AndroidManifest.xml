@@ -38,6 +38,12 @@
         <activity android:name="com.example.pipe.ubb.panel_admin" />
         <activity android:name="com.example.pipe.ubb.mostrarUsuarios" />
         <activity android:name="com.example.pipe.ubb.mostrarJardineros" />
+        <activity android:name="com.example.pipe.ubb.login_jardinero" />
+        <activity android:name="com.example.pipe.ubb.panel_jardinero" />
+        <activity android:name="com.example.pipe.ubb.modificar_jardinero" />
+        <activity android:name="com.example.pipe.ubb.UsuariosLista" />
+        <activity android:name="com.example.pipe.ubb.Decision" />
+        <activity android:name="com.example.pipe.ubb.Agenda_Lista" />
     </application>
 
 </manifest>

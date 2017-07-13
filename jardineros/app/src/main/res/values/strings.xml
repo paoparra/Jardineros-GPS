@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Uber Jardinero</string>
     <string name="title_activity_registrar_usuario">RegistrarUsuario</string>
+    <string name="title_activity_usuarios_lista">UsuariosLista</string>
 </resources>

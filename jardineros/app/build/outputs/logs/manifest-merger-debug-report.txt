@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:2:1-43:12
 	package
 		ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Ja
 	android:name
 		ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:7:5-35:19
+ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:7:5-41:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Rudyard\.android\build-cache\b598a69140b667d1c2e0137d0c5fd764efc0049e\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:24.2.1] C:\Users\Rudyard\.android\build-cache\ef5925b81eea68865768b19e16244b44c8ea159c\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Rudyard\.android\build-cache\30fab66dc0e524a0b1946eaa2a4623816404f6bc\output\AndroidManifest.xml:25:5-20
@@ -111,9 +111,33 @@ ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Ja
 	android:name
 		ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:33:19-50
 activity#com.example.pipe.ubb.mostrarJardineros
-ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:34:9-64
+ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:34:9-55
 	android:name
 		ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:34:19-52
+activity#com.example.pipe.ubb.login_jardinero
+ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:35:9-53
+	android:name
+		ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:35:19-50
+activity#com.example.pipe.ubb.panel_jardinero
+ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:36:9-53
+	android:name
+		ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:36:19-50
+activity#com.example.pipe.ubb.modificar_jardinero
+ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:37:9-57
+	android:name
+		ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:37:19-54
+activity#com.example.pipe.ubb.UsuariosLista
+ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:38:9-51
+	android:name
+		ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:38:19-48
+activity#com.example.pipe.ubb.Decision
+ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:39:9-46
+	android:name
+		ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:39:19-43
+activity#com.example.pipe.ubb.Agenda_Lista
+ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:40:9-59
+	android:name
+		ADDED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml:40:19-47
 uses-sdk
 INJECTED from C:\Users\Rudyard\AndroidStudioProjects\proyecto_completo_arreglado\Jardineros-GPS\jardineros\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Rudyard\.android\build-cache\b598a69140b667d1c2e0137d0c5fd764efc0049e\output\AndroidManifest.xml:5:5-7:41

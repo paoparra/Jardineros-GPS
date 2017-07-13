@@ -48,6 +48,8 @@ public class UBB extends AppCompatActivity implements View.OnClickListener {
                 startActivity(b);
                                         break;
             case R.id.btnLoginJardinero:
+                 Intent g= new Intent(this,login_jardinero.class);
+                 startActivity(g);
                                         break;
             case R.id.registrar:
                     Intent a=new Intent(this,Ventana_registro.class);
