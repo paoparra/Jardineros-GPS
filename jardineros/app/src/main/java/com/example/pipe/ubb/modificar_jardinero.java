@@ -59,6 +59,12 @@ public class modificar_jardinero extends AppCompatActivity implements View.OnCli
         clave_string = getIntent().getExtras().getString("clave"); // obtenemos la clave de la actividad anterior
 
     }
+
+    public static boolean maximoLetrasValido(String campo,int digitosEsperados){
+        return campo.length()<=digitosEsperados;
+    }
+
+
     public static boolean validarClave(String clave1,String clave2){
         if(clave1.equals(clave2)){
             return true;
@@ -101,7 +107,19 @@ public class modificar_jardinero extends AppCompatActivity implements View.OnCli
                                     break;
                 case R.id.mtelefono:
                     telefono = etelefono.getText().toString();
-                    new modificar_jardinero.modificar_telefono().execute();
+                    if(verifyNumeros(telefono)) {
+                        if(telefonoValido(telefono)){
+                            new modificar_jardinero.modificar_telefono().execute();
+                        }
+                        else{
+                            textTelefono.setText("El telefono debe tener 9 digitos");
+                        }
+
+                    }
+                    else{
+                        textTelefono.setText("El telefono debe contener numeros no letras");
+                    }
+
                                     break;
 
 
