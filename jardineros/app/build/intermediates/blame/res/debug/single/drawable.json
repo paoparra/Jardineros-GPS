@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
@@ -124,12 +124,12 @@
         "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\h2.png",
-        "source": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\drawable\\h2.png"
-    },
-    {
         "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m5.png",
         "source": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\drawable\\m5.png"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\h2.png",
+        "source": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\drawable\\h2.png"
     },
     {
         "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
@@ -184,12 +184,12 @@
         "source": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\drawable\\item_list_indicator.xml"
     },
     {
-        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\admin.png",
         "source": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\src\\main\\res\\drawable\\admin.png"
+    },
+    {
+        "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Rudyard\\.android\\build-cache\\30fab66dc0e524a0b1946eaa2a4623816404f6bc\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
         "merged": "C:\\Users\\Rudyard\\AndroidStudioProjects\\proyecto_completo_arreglado\\Jardineros-GPS\\jardineros\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
