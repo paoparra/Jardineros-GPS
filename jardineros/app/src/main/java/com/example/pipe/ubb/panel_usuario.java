@@ -18,6 +18,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+import static android.R.string.no;
+//import static com.example.pipe.ubb.R.id.Hora;
 import static com.example.pipe.ubb.R.id.csesion;
 
 /**
@@ -28,6 +30,10 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
     ArrayList correo=new ArrayList();
     ArrayList nombres=new ArrayList();
     ArrayList notas=new ArrayList();
+
+    ArrayList HoraA=new ArrayList();
+    ArrayList LugarA=new ArrayList();
+
     String id_string,clave_string;
     String resultado;
     String parametro;
@@ -39,9 +45,12 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
     private Button Reclamar;
     private Button VReclamar;
     private Button Solicitar;
+    private Button  Agenda;
     String opcion="";
+    String Estado="nada";
 
     String  LOGIN_URL3="http://34.193.208.83/jardinero/ver_prueba.php";
+    String  LOGIN_URL4="http://34.193.208.83/jardinero/ver_agenda_usuario.php";
     JSONParser jsonParser = new JSONParser();
 
     Button csesion;
@@ -61,6 +70,7 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
         Reclamar=(Button)findViewById(R.id.reclamos);
         Solicitar=(Button)findViewById(R.id.solicitarJardinero);
         VReclamar=(Button)findViewById(R.id.Vreclamos);
+        Agenda=(Button)findViewById(R.id.Agenda);
 
         modificar.setOnClickListener(this); // boton modificar activado
         csesion.setOnClickListener(this); // boton se cierre de sesion activado
@@ -68,6 +78,7 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
         Reclamar.setOnClickListener(this);
         Solicitar.setOnClickListener(this);
         VReclamar.setOnClickListener(this);
+        Agenda.setOnClickListener(this);
     }
     public void onClick(View v) {
         switch (v.getId()){
@@ -99,6 +110,10 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
                 new panel_usuario.mostrar().execute();
                 break;
 
+            case R.id.Agenda:
+                Estado="Aprobado";
+                new panel_usuario.mostrarAgenda().execute();
+                break;
             case R.id.csesion:
                 Intent b = new Intent(this,UBB.class);
                 finish();
@@ -148,7 +163,7 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
 
             }
             Intent c = new Intent(panel_usuario.this,JardinerosLista.class);
-            c.putExtra("micorreo", correo);
+            c.putExtra("micorreo", correo); //correos del jardinero
             c.putExtra("misnombres", nombres);
             c.putExtra("misnotas", notas);
             c.putExtra("op",opcion);
@@ -162,5 +177,55 @@ public class panel_usuario extends AppCompatActivity implements View.OnClickList
     }
 
 
+    class mostrarAgenda extends AsyncTask<String, String, String> {
+        protected void onPreExecute() {
+
+        }
+        @Override
+        protected String doInBackground(String... params) {
+            List parametros = new ArrayList();
+            parametros.add(new BasicNameValuePair("estado",Estado));
+            parametros.add(new BasicNameValuePair("correo",id_string));
+            resultado = jsonParser.makeHttpRequest(LOGIN_URL4, "POST",
+                    parametros).toString();
+            JSONObject object = null;
+            try {
+                object = new JSONObject(resultado);
+                JSONArray json_array = object.optJSONArray("respuesta");
+                correo.clear();
+                HoraA.clear();
+                LugarA.clear();
+                for (int i = 0; i < json_array.length(); i++) {
+                    correo.add(json_array.getJSONObject(i).getString("correo_jardinero"));
+                    HoraA.add(json_array.getJSONObject(i).getString("Hora"));
+                    LugarA.add(json_array.getJSONObject(i).getString("Lugar"));
+
+                }
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+
+        protected void onPostExecute(String file_url) {
+            String valores="";
+            for(int i=0;i<correo.size();i++){
+                valores=valores+correo.get(i).toString()+" ";
+
+            }
+            Intent c = new Intent(panel_usuario.this,Agenda_Lista.class);
+            c.putExtra("micorreo", correo); //correos del jardinero
+            c.putExtra("mihora", HoraA);
+            c.putExtra("milugar",LugarA);
+            c.putExtra("usuario",id_string);
+            startActivity(c);
+
+            Log.d("mensaje","hola: "+valores);
+
+
+        }
+    }
 
 }

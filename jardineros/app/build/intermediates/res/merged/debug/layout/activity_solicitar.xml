@@ -16,26 +16,95 @@
         android:textColor="#002117"
         android:layout_marginTop="10dp"
         android:text=""
+        android:layout_gravity="center_horizontal"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="155dp"
         android:layout_marginTop="5dp"
         app:srcCompat="@drawable/gardener"
         android:id="@+id/imageView2" />
 
-    <EditText
-        android:id="@+id/Hora"
-        android:layout_width="280dp"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/btnFecha"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/boton_redondo"
+        android:fontFamily="serif"
+        android:onClick="mostrarCalendario"
+        android:text="Seleccionar fecha"
+        android:textColor="#002117"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/TextFecha"
+        android:layout_width="394dp"
+        android:layout_height="29dp"
+        android:orientation="horizontal"
+        android:background="#9DC0B5">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:text="Fecha seleccionada:" />
+
+        <TextView
+            android:id="@+id/muestraFecha"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:text="" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
         android:layout_marginTop="10dp"
         android:fontFamily="serif"
-        android:textSize="16sp"
-        android:hint="Escriba su Fecha" />
-        
+        android:text="Escriba la hora:" />
+
+    <LinearLayout
+        android:id="@+id/TextHora"
+        android:layout_width="394dp"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        android:background="#9DC0B5"
+        android:layout_weight="0.13">
+
+        <EditText
+            android:id="@+id/HH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="56dp"
+            android:fontFamily="serif"
+            android:hint="HH"
+            android:inputType="date"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/MM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:hint="MM"
+            android:inputType="date"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
     <EditText
         android:id="@+id/Lugar"
         android:layout_width="280dp"
@@ -45,17 +114,18 @@
         android:fontFamily="serif"
         android:textSize="16sp"
         android:hint="Escriba el lugar" />
-        
+
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="250dp"
         android:layout_height="50dp"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="@drawable/boton_redondo"
         android:fontFamily="serif"
-        android:textSize="16sp"
+        android:text="Solicitar Jardinero"
         android:textColor="#002117"
-        android:layout_gravity="center"
-        android:text="Solicitar Jardinero" />
+        android:textSize="16sp" />
+
 </LinearLayout>
 

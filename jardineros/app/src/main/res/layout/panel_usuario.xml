@@ -13,7 +13,7 @@
         android:fontFamily="serif"
         android:id="@+id/informacion"
         android:textColor="#002117"
-        android:textSize="18sp" />
+        android:textSize="15sp" />
 
     <Button
         android:text="Modificar Datos"
@@ -24,7 +24,7 @@
         android:layout_height="50dp"
         android:textColor="#002117"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         />
 
     <Button
@@ -75,14 +75,26 @@
        />
 
     <Button
+        android:id="@+id/Agenda"
+
+        android:text="Ver mi Agenda"
+        android:background="@drawable/boton_redondo"
+        android:fontFamily="serif"
+        android:layout_width="280dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#002117"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
         android:id="@+id/csesion"
 
         android:layout_width="280dp"
         android:layout_height="50dp"
-        android:textColor="#002117"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:background="@drawable/boton_redondo"
         android:fontFamily="serif"
-        android:text="Cerrar Sesion" />
+        android:text="Cerrar Sesion"
+        android:textColor="#002117" />
 </LinearLayout>
