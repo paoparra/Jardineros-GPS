@@ -40,6 +40,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
 
+import static android.R.attr.duration;
 import static android.os.Build.ID;
 import static java.lang.System.currentTimeMillis;
 
@@ -111,18 +112,28 @@ public class Solicitar extends Activity {
                  Hora = muestraFecha.getText().toString() +" - "+ HH.getText().toString() +":"+ (MM).getText().toString();
                  Lugar = txtlugar.getText().toString();
                 //long dat= currentTimeMillis();
-                ID=Long.toString(currentTimeMillis());
-                Log.d("mensaje"," id = "+ID);
-               
+                if(HoraValida(Integer.parseInt(HH.getText().toString()),Integer.parseInt((MM).getText().toString()))==true) {
+                    ID = Long.toString(currentTimeMillis());
+                    Log.d("mensaje", " id = " + ID);
 
-                Context context = getApplicationContext();
-                CharSequence text = " Solicitud enviada!";
-                int duration = Toast.LENGTH_SHORT;
+                    Context context = getApplicationContext();
+                    CharSequence text = " Solicitud enviada!";
+                    int duration = Toast.LENGTH_SHORT;
 
-                Toast toast = Toast.makeText(context, text, duration);
-                toast.show();
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.show();
 
-                new Solicitar.SolicitarJ().execute();
+                    new Solicitar.SolicitarJ().execute();
+                }
+                else{
+                    Context context2 = getApplicationContext();
+                    CharSequence text2 = "Hora no Valida!";
+                    int duration2 = Toast.LENGTH_SHORT;
+
+                    Toast toast2 = Toast.makeText(context2, text2, duration2);
+                    toast2.show();
+
+                }
             }
         });
 
